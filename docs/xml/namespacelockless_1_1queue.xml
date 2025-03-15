@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespacelockless_1_1queue" kind="namespace" language="C++">
+    <compoundname>lockless::queue</compoundname>
+    <innerclass refid="classlockless_1_1queue_1_1_queue" prot="public">lockless::queue::Queue</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/modules/queue.cppm" line="5" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="lockless_8cppm" kind="file" language="C++">
+    <compoundname>lockless.cppm</compoundname>
+    <includes refid="lockless_8cppm" local="no">lockless:queue</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">export</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">module</highlight><highlight class="normal"><sp/><ref refid="module__lockless" kindref="compound">lockless</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">export</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>:queue;</highlight></codeline>
+    </programlisting>
+    <location file="src/modules/lockless.cppm"/>
+  </compounddef>
+</doxygen>
