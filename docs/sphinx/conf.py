@@ -11,7 +11,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath('../../'))
 
-project = 'lockless'
+project = 'Concurrent'
 copyright = '2025, Cameron Russell'
 author = 'Cameron Russell'
 
@@ -25,13 +25,11 @@ extensions = [
 	'sphinx.ext.viewcode'
 ]
 
-breathe_projects = {'lockless': '../xml/'}  # Match this to your Doxygen XML path
-breathe_default_project = 'lockless'
+breathe_projects = {'Concurrent': '../xml/'}  # Match this to your Doxygen XML path
+breathe_default_project = 'Concurrent'
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
