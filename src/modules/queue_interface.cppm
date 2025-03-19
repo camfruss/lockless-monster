@@ -11,31 +11,31 @@ export namespace concurrent
 	{
 		public:
 			queue() = default;
-			~queue() = default;
+			virtual ~queue() = default;
 
-			T& front() const = 0; 
-			const T& front() const = 0;
+			virtual T& front() const = 0; 
+			virtual const T& front() const = 0;
 
-			T& back() const = 0;
-			const T& back() const = 0;
+			virtual T& back() const = 0;
+			virtual const T& back() const = 0;
 			
-			bool empty() const = 0;
-			std::size_t size() const = 0;
+			virtual bool empty() const = 0;
+			virtual std::size_t size() const = 0;
 
-			void push(const T& value) = 0;
-			void push(T&& value) = 0;
+			virtual void push(const T& value) = 0;
+			virtual void push(T&& value) = 0;
 
-			void push_range(std::initializer_list<T> range) = 0;
+			virtual void push_range(std::initializer_list<T> range) = 0;
 
 			template<typename ...Args>
-			void emplace(Args&& ...args) = 0;
+			virtual void emplace(Args&& ...args) = 0;
 
 			template<typename Range>
-			void emplace_range(Range&& range) = 0;
+			virtual void emplace_range(Range&& range) = 0;
 
-			void pop() = 0;
+			virtual void pop() = 0;
 
-			void swap(queue& other) noexcept = 0;
+			virtual void swap(queue& other) noexcept = 0;
 	};
 
 }
