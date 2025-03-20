@@ -1,5 +1,6 @@
 
 cmake_minimum_required(VERSION 3.29)
+set(CMAKE_INSTALL_MESSAGE LAZY)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
@@ -36,7 +37,7 @@ add_subdirectory(tests)
 add_custom_target(generate_docs
 	COMMAND doxygen Doxyfile
 	COMMAND make clean -C ${CMAKE_CURRENT_SOURCE_DIR}/docs/sphinx
-	COMMAND sphinx-build -M html 
+	COMMAND sphinx-build --quiet -b html 
 		${CMAKE_CURRENT_SOURCE_DIR}/docs/sphinx 
 		${CMAKE_CURRENT_SOURCE_DIR}/docs/sphinx/_build 
 	WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}

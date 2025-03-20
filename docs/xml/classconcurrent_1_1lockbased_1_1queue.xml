@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classconcurrent_1_1lockbased_1_1queue" kind="class" language="C++" prot="public">
+    <compoundname>concurrent::lockbased::queue</compoundname>
+    <basecompoundref refid="classconcurrent_1_1queue" prot="public" virt="non-virtual">concurrent::queue&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classconcurrent_1_1lockbased_1_1queue_1a0b6180ed0e06885bab08b4db48622db5" prot="private" static="no" mutable="no">
+        <type>std::queue&lt; T &gt;</type>
+        <definition>std::queue&lt;T&gt; concurrent::lockbased::queue&lt; T &gt;::m_queue</definition>
+        <argsstring></argsstring>
+        <name>m_queue</name>
+        <qualifiedname>concurrent::lockbased::queue::m_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="28" column="12" bodyfile="src/modules/queue_lockbased.cppm" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classconcurrent_1_1lockbased_1_1queue_1afee8bf0f515b09635c0ce1c51691016d" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex concurrent::lockbased::queue&lt; T &gt;::m_mutex</definition>
+        <argsstring></argsstring>
+        <name>m_mutex</name>
+        <qualifiedname>concurrent::lockbased::queue::m_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="29" column="12" bodyfile="src/modules/queue_lockbased.cppm" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classconcurrent_1_1lockbased_1_1queue_1ae70befb0b824def94973baf51de973aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; concurrent::lockbased::queue&lt; T &gt;::front</definition>
+        <argsstring>() const override</argsstring>
+        <name>front</name>
+        <qualifiedname>concurrent::lockbased::queue::front</qualifiedname>
+        <reimplements refid="classconcurrent_1_1queue_1a56efda117d8a7a4f523fbf9117f8ce7a">front</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="15" column="3" bodyfile="src/modules/queue_lockbased.cpp" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1lockbased_1_1queue_1ae81e287a44c578d80d1285b06f2481ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; concurrent::lockbased::queue&lt; T &gt;::back</definition>
+        <argsstring>() const override</argsstring>
+        <name>back</name>
+        <qualifiedname>concurrent::lockbased::queue::back</qualifiedname>
+        <reimplements refid="classconcurrent_1_1queue_1a4404b1207dee3f8b0003cd1c725585cb">back</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="16" column="3" bodyfile="src/modules/queue_lockbased.cpp" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1lockbased_1_1queue_1af73bd1cd739018b10f4905aac7d5e1b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool concurrent::lockbased::queue&lt; T &gt;::empty</definition>
+        <argsstring>() const override</argsstring>
+        <name>empty</name>
+        <qualifiedname>concurrent::lockbased::queue::empty</qualifiedname>
+        <reimplements refid="classconcurrent_1_1queue_1a7f6880a9bbe31b2799c825b2e3380a3a">empty</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="18" column="6" bodyfile="src/modules/queue_lockbased.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1lockbased_1_1queue_1ac9a5c0f84ab48f8552449a2b4e3fba09" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t concurrent::lockbased::queue&lt; T &gt;::size</definition>
+        <argsstring>() const override</argsstring>
+        <name>size</name>
+        <qualifiedname>concurrent::lockbased::queue::size</qualifiedname>
+        <reimplements refid="classconcurrent_1_1queue_1af91be40bb48a79dea5446f98644bb3f9">size</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="19" column="13" bodyfile="src/modules/queue_lockbased.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1lockbased_1_1queue_1acc48a1e0480f04c4de8e10d913046527" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void concurrent::lockbased::queue&lt; T &gt;::push</definition>
+        <argsstring>(const T &amp;value) override</argsstring>
+        <name>push</name>
+        <qualifiedname>concurrent::lockbased::queue::push</qualifiedname>
+        <reimplements refid="classconcurrent_1_1queue_1a252522233ac34114942a7907adfa1d6b">push</reimplements>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="21" column="6" bodyfile="src/modules/queue_lockbased.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1lockbased_1_1queue_1a0a803fee7af3bb20a45ced39965804e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void concurrent::lockbased::queue&lt; T &gt;::push</definition>
+        <argsstring>(T &amp;&amp;value) override</argsstring>
+        <name>push</name>
+        <qualifiedname>concurrent::lockbased::queue::push</qualifiedname>
+        <reimplements refid="classconcurrent_1_1queue_1a83205e3c05b3065d87ba97c39e375b7a">push</reimplements>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="22" column="6" bodyfile="src/modules/queue_lockbased.cpp" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1lockbased_1_1queue_1ab5ea1f7e8f52f676bc7cabc71da029c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void concurrent::lockbased::queue&lt; T &gt;::pop</definition>
+        <argsstring>() override</argsstring>
+        <name>pop</name>
+        <qualifiedname>concurrent::lockbased::queue::pop</qualifiedname>
+        <reimplements refid="classconcurrent_1_1queue_1acf7ae67fd2eb80cff0ac7c5b9fd11712">pop</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="24" column="6" bodyfile="src/modules/queue_lockbased.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1lockbased_1_1queue_1af53ef8f6009e6dc58739973d89cad3ad" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void concurrent::lockbased::queue&lt; T &gt;::swap</definition>
+        <argsstring>(queue &amp;other) noexcept override</argsstring>
+        <name>swap</name>
+        <qualifiedname>concurrent::lockbased::queue::swap</qualifiedname>
+        <param>
+          <type><ref refid="classconcurrent_1_1lockbased_1_1queue" kindref="compound">queue</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="26" column="6" bodyfile="src/modules/queue_lockbased.cpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>concurrent::lockbased::queue&lt; T &gt;</label>
+        <link refid="classconcurrent_1_1lockbased_1_1queue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>concurrent::queue&lt; T &gt;</label>
+        <link refid="classconcurrent_1_1queue"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>concurrent::lockbased::queue&lt; T &gt;</label>
+        <link refid="classconcurrent_1_1lockbased_1_1queue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>concurrent::queue&lt; T &gt;</label>
+        <link refid="classconcurrent_1_1queue"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/modules/queue_lockbased.cppm" line="12" column="1" bodyfile="src/modules/queue_lockbased.cppm" bodystart="13" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1ae81e287a44c578d80d1285b06f2481ad" prot="public" virt="virtual"><scope>concurrent::lockbased::queue</scope><name>back</name></member>
+      <member refid="classconcurrent_1_1queue_1a4a7e942e05957500dee1c0b35a270603" prot="public" virt="non-virtual"><scope>concurrent::lockbased::queue</scope><name>emplace</name></member>
+      <member refid="classconcurrent_1_1queue_1a86bc70fb1c830e8380aab511472bf3e0" prot="public" virt="non-virtual"><scope>concurrent::lockbased::queue</scope><name>emplace_range</name></member>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1af73bd1cd739018b10f4905aac7d5e1b5" prot="public" virt="virtual"><scope>concurrent::lockbased::queue</scope><name>empty</name></member>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1ae70befb0b824def94973baf51de973aa" prot="public" virt="virtual"><scope>concurrent::lockbased::queue</scope><name>front</name></member>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1afee8bf0f515b09635c0ce1c51691016d" prot="private" virt="non-virtual"><scope>concurrent::lockbased::queue</scope><name>m_mutex</name></member>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1a0b6180ed0e06885bab08b4db48622db5" prot="private" virt="non-virtual"><scope>concurrent::lockbased::queue</scope><name>m_queue</name></member>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1ab5ea1f7e8f52f676bc7cabc71da029c1" prot="public" virt="virtual"><scope>concurrent::lockbased::queue</scope><name>pop</name></member>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1acc48a1e0480f04c4de8e10d913046527" prot="public" virt="virtual"><scope>concurrent::lockbased::queue</scope><name>push</name></member>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1a0a803fee7af3bb20a45ced39965804e3" prot="public" virt="virtual"><scope>concurrent::lockbased::queue</scope><name>push</name></member>
+      <member refid="classconcurrent_1_1queue_1ab62d4c18acfd34f6e24fdecf7832af95" prot="public" virt="non-virtual"><scope>concurrent::lockbased::queue</scope><name>push_range</name></member>
+      <member refid="classconcurrent_1_1queue_1a1a78ad391843cfd5a4bee70b53df7a30" prot="public" virt="non-virtual"><scope>concurrent::lockbased::queue</scope><name>queue</name></member>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1ac9a5c0f84ab48f8552449a2b4e3fba09" prot="public" virt="virtual"><scope>concurrent::lockbased::queue</scope><name>size</name></member>
+      <member refid="classconcurrent_1_1lockbased_1_1queue_1af53ef8f6009e6dc58739973d89cad3ad" prot="public" virt="non-virtual"><scope>concurrent::lockbased::queue</scope><name>swap</name></member>
+      <member refid="classconcurrent_1_1queue_1a270dbb431549e5a41aad7d40fe5f028a" prot="public" virt="pure-virtual" ambiguityscope="concurrent::queue::"><scope>concurrent::lockbased::queue</scope><name>swap</name></member>
+      <member refid="classconcurrent_1_1queue_1ae7649b09bf8c4a93249991bf2e283a82" prot="public" virt="virtual"><scope>concurrent::lockbased::queue</scope><name>~queue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

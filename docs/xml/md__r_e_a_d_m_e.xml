@@ -2,19 +2,71 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="md__r_e_a_d_m_e" kind="page">
     <compoundname>md__r_e_a_d_m_e</compoundname>
-    <title>lockless-monster</title>
+    <title>Concurrent</title>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para><anchor id="md__r_e_a_d_m_e_1autotoc_md0"/></para>
-<para><programlisting filename=".txt"><codeline><highlight class="normal">GENERATE_XML<sp/>=<sp/>YES</highlight></codeline>
-<codeline><highlight class="normal">RECURSIVE<sp/>=<sp/>YES</highlight></codeline>
-</programlisting></para>
-<para>To keep a clean root directory, keep all CMake files in the <computeroutput>build</computeroutput> directory: <programlisting filename=".Bash"><codeline><highlight class="normal">cd<sp/>./build</highlight></codeline>
-<codeline><highlight class="normal">cmake<sp/>..</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal">cmake<sp/>--build<sp/>./build<sp/>--target<sp/>generate_docs</highlight></codeline>
-</programlisting> </para>
+<para><anchor id="md__r_e_a_d_m_e_1autotoc_md2"/></para>
+<para>A collection of lock-based and lock-free data structures</para>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md3">
+<title>About</title></sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md4">
+<title>Getting Started</title><sect2 id="md__r_e_a_d_m_e_1autotoc_md5">
+<title>Prerequisites</title><para><itemizedlist>
+<listitem><para>C++20</para>
+</listitem><listitem><para>Ninja</para>
+</listitem><listitem><para>googletest</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="md__r_e_a_d_m_e_1autotoc_md6">
+<title>Installation</title></sect2>
+</sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md7">
+<title>Usage</title><para>Please refer to the compelete <ulink url="https://camfruss.github.io/concurrent/">documentation</ulink> or the detailed <ulink url="examples/">examples</ulink> for further guidance. <linebreak/>
+</para>
+</sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md8">
+<title>Roadmap</title><para><itemizedlist>
+<listitem override="unchecked"><para>Proposed Data Structures<itemizedlist>
+<listitem override="unchecked"><para>Queue</para>
+</listitem></itemizedlist>
+<itemizedlist>
+<listitem override="unchecked"><para>Stack</para>
+</listitem></itemizedlist>
+<itemizedlist>
+<listitem override="unchecked"><para>Ring Buffer</para>
+</listitem></itemizedlist>
+<itemizedlist>
+<listitem override="unchecked"><para>(Counting) Bloom Filter</para>
+</listitem></itemizedlist>
+<itemizedlist>
+<listitem override="unchecked"><para>Priority Queue</para>
+</listitem></itemizedlist>
+<itemizedlist>
+<listitem override="unchecked"><para>Red-Black Tree</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+<itemizedlist>
+<listitem override="unchecked"><para>Build out testing suite</para>
+</listitem></itemizedlist>
+<itemizedlist>
+<listitem override="unchecked"><para>Conan</para>
+</listitem></itemizedlist>
+<itemizedlist>
+<listitem override="unchecked"><para>GitHub Actions</para>
+</listitem></itemizedlist>
+</para>
+<para>See <ulink url="https://github.com/camfruss/concurrent/issues">open issues</ulink> for a full list of known issues.</para>
+</sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md9">
+<title>Contributing</title></sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md10">
+<title>License</title><para><ulink url="https://choosealicense.com/licenses/mit/">MIT</ulink></para>
+</sect1>
+<sect1 id="md__r_e_a_d_m_e_1autotoc_md11">
+<title>Contact</title></sect1>
     </detaileddescription>
     <location file="README.md"/>
   </compounddef>

@@ -41,4 +41,3 @@ See [open issues](https://github.com/camfruss/concurrent/issues) for a full list
 
 ## Contact 
 
-My email is \<my github username>@gmail.com

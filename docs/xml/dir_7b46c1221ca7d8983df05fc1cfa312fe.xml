@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_7b46c1221ca7d8983df05fc1cfa312fe" kind="dir">
+    <compoundname>src/todo</compoundname>
+    <innerfile refid="stack_8cpp">stack.cpp</innerfile>
+    <innerfile refid="stack_8cppm">stack.cppm</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/todo/"/>
+  </compounddef>
+</doxygen>

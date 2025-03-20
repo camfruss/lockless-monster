@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespace_0d222112174027345137362226361031243063061055375266" kind="namespace" language="C++">
+    <compoundname></compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_0d222112174027345137362226361031243063061055375266_1a1a1704f6f14663657acc973b101eb433" prot="public" static="no" strong="no">
+        <type></type>
+        <name>NamedEnum</name>
+        <qualifiedname>::NamedEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_unittest.cc" line="3974" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_unittest.cc" bodystart="3974" bodyend="3974"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_0d222112174027345137362226361031243063061055375266_1a527c87c4315deee1bd7a00b6425e422b" prot="public" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_unittest.cc" line="3987" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_unittest.cc" bodystart="3987" bodyend="4010"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googletest/test/gtest_unittest.cc" line="301" column="1"/>
+  </compounddef>
+</doxygen>

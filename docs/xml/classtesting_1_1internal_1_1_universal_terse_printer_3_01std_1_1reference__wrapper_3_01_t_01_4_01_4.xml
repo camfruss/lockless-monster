@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1_universal_terse_printer_3_01std_1_1reference__wrapper_3_01_t_01_4_01_4" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::UniversalTersePrinter&lt; std::reference_wrapper&lt; T &gt; &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_universal_terse_printer_3_01std_1_1reference__wrapper_3_01_t_01_4_01_4_1a0710fc05707697e123a8ecbd6dfed1f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::internal::UniversalTersePrinter&lt; std::reference_wrapper&lt; T &gt; &gt;::Print</definition>
+        <argsstring>(std::reference_wrapper&lt; T &gt; value, ::std::ostream *os)</argsstring>
+        <name>Print</name>
+        <qualifiedname>testing::internal::UniversalTersePrinter&lt; std::reference_wrapper&lt; T &gt; &gt;::Print</qualifiedname>
+        <param>
+          <type>std::reference_wrapper&lt; T &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" line="1078" column="15" bodyfile="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" bodystart="1078" bodyend="1080"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_universal_terse_printer_1a042249cdb42fdb77588c9ad54ea7ed54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testing::internal::UniversalTersePrinter&lt; T &gt;::Print</definition>
+        <argsstring>(const T &amp;value, ::std::ostream *os)</argsstring>
+        <name>Print</name>
+        <qualifiedname>testing::internal::UniversalTersePrinter&lt; std::reference_wrapper&lt; T &gt; &gt;::Print</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>::std::ostream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" line="1064" column="15" bodyfile="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" bodystart="1064" bodyend="1066"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" line="1076" column="1" bodyfile="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" bodystart="1076" bodyend="1081"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1_universal_terse_printer_3_01std_1_1reference__wrapper_3_01_t_01_4_01_4_1a0710fc05707697e123a8ecbd6dfed1f0" prot="public" virt="non-virtual"><scope>testing::internal::UniversalTersePrinter&lt; std::reference_wrapper&lt; T &gt; &gt;</scope><name>Print</name></member>
+      <member refid="classtesting_1_1internal_1_1_universal_terse_printer_1a042249cdb42fdb77588c9ad54ea7ed54" prot="public" virt="non-virtual"><scope>testing::internal::UniversalTersePrinter&lt; std::reference_wrapper&lt; T &gt; &gt;</scope><name>Print</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

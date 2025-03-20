@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structtesting_1_1_print_to_string_param_name" kind="struct" language="C++" prot="public">
+    <compoundname>testing::PrintToStringParamName</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structtesting_1_1_print_to_string_param_name_1a05b411cfb75dadb2c3c0355aee1dcf21" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class ParamType</type>
+          </param>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string testing::PrintToStringParamName::operator()</definition>
+        <argsstring>(const TestParamInfo&lt; ParamType &gt; &amp;info) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::PrintToStringParamName::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="structtesting_1_1_test_param_info" kindref="compound">TestParamInfo</ref>&lt; ParamType &gt; &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="74" column="15" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="74" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="72" column="1" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="72" bodyend="77"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1_print_to_string_param_name_1a05b411cfb75dadb2c3c0355aee1dcf21" prot="public" virt="non-virtual"><scope>testing::PrintToStringParamName</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

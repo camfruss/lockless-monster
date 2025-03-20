@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4" kind="class" language="C++" prot="private">
+    <compoundname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</compoundname>
+    <basecompoundref refid="classtesting_1_1internal_1_1_param_iterator_interface" prot="public" virt="non-virtual">testing::internal::ParamIteratorInterface&lt; ParamType &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>size_t...</type>
+        <declname>I</declname>
+        <defname>I</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1afddebd09dbe1d986ceefea65a8c77048" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classtesting_1_1internal_1_1_param_generator_interface" kindref="compound">ParamGeneratorInterface</ref>&lt; ParamType &gt; *const</type>
+        <definition>const ParamGeneratorInterface&lt;ParamType&gt;* const testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::base_</definition>
+        <argsstring></argsstring>
+        <name>base_</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::base_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="929" column="41" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="929" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1ac6d3f2de04cca7614a608a855e4c5df1" prot="private" static="no" mutable="no">
+        <type>std::tuple&lt; typename <ref refid="classtesting_1_1internal_1_1_param_generator" kindref="compound">ParamGenerator</ref>&lt; T &gt;::iterator... &gt;</type>
+        <definition>std::tuple&lt;typename ParamGenerator&lt;T&gt;::iterator...&gt; testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::begin_</definition>
+        <argsstring></argsstring>
+        <name>begin_</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::begin_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="930" column="17" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a1378a8b23c0396f671044e6da9d37480" prot="private" static="no" mutable="no">
+        <type>std::tuple&lt; typename <ref refid="classtesting_1_1internal_1_1_param_generator" kindref="compound">ParamGenerator</ref>&lt; T &gt;::iterator... &gt;</type>
+        <definition>std::tuple&lt;typename ParamGenerator&lt;T&gt;::iterator...&gt; testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::end_</definition>
+        <argsstring></argsstring>
+        <name>end_</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::end_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="931" column="17" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a2f74c07aadf6e56a05e5441cab86a126" prot="private" static="no" mutable="no">
+        <type>std::tuple&lt; typename <ref refid="classtesting_1_1internal_1_1_param_generator" kindref="compound">ParamGenerator</ref>&lt; T &gt;::iterator... &gt;</type>
+        <definition>std::tuple&lt;typename ParamGenerator&lt;T&gt;::iterator...&gt; testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::current_</definition>
+        <argsstring></argsstring>
+        <name>current_</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::current_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="932" column="17" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="932" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a396f6bc21e13c858c603f7a88bf947e1" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; ParamType &gt;</type>
+        <definition>std::shared_ptr&lt;ParamType&gt; testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::current_value_</definition>
+        <argsstring></argsstring>
+        <name>current_value_</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::current_value_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="933" column="21" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="933" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1aaeeb2eecf09323334ae6fcf2d0326354" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::IteratorImpl</definition>
+        <argsstring>(const ParamGeneratorInterface&lt; ParamType &gt; *base, const std::tuple&lt; ParamGenerator&lt; T &gt;... &gt; &amp;generators, bool is_end)</argsstring>
+        <name>IteratorImpl</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::IteratorImpl</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1_param_generator_interface" kindref="compound">ParamGeneratorInterface</ref>&lt; ParamType &gt; *</type>
+          <declname>base</declname>
+        </param>
+        <param>
+          <type>const std::tuple&lt; <ref refid="classtesting_1_1internal_1_1_param_generator" kindref="compound">ParamGenerator</ref>&lt; T &gt;... &gt; &amp;</type>
+          <declname>generators</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="848" column="5" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="848" bodyend="856"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a78a047f1573288f112a4faabec69b129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::~IteratorImpl</definition>
+        <argsstring>() override=default</argsstring>
+        <name>~IteratorImpl</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::~IteratorImpl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="857" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1af7b2058a53baf7a2121dc1213970e974" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classtesting_1_1internal_1_1_param_generator_interface" kindref="compound">ParamGeneratorInterface</ref>&lt; ParamType &gt; *</type>
+        <definition>const ParamGeneratorInterface&lt; ParamType &gt; * testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::BaseGenerator</definition>
+        <argsstring>() const override</argsstring>
+        <name>BaseGenerator</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::BaseGenerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="859" column="35" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="859" bodyend="861"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a68b4b03a23bde3c04ca7f2c2ef24951c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::Advance</definition>
+        <argsstring>() override</argsstring>
+        <name>Advance</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::Advance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="864" column="10" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="864" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1aaaec997f517299d4a02b4c972098587b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtesting_1_1internal_1_1_param_iterator_interface" kindref="compound">ParamIteratorInterface</ref>&lt; ParamType &gt; *</type>
+        <definition>ParamIteratorInterface&lt; ParamType &gt; * testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::Clone</definition>
+        <argsstring>() const override</argsstring>
+        <name>Clone</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::Clone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="872" column="28" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="872" bodyend="874"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a17f7fd410291bbab57b388d5ae04ebce" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const ParamType *</type>
+        <definition>const ParamType * testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::Current</definition>
+        <argsstring>() const override</argsstring>
+        <name>Current</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::Current</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="876" column="21" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="876" bodyend="876"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a27f856e696d6c997ef8949fc25117b33" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::Equals</definition>
+        <argsstring>(const ParamIteratorInterface&lt; ParamType &gt; &amp;other) const override</argsstring>
+        <name>Equals</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::Equals</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1internal_1_1_param_iterator_interface" kindref="compound">ParamIteratorInterface</ref>&lt; ParamType &gt; &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="878" column="10" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="878" bodyend="898"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1ac8377556a64cde793ba560b17bba4ff1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>ThisI</declname>
+            <defname>ThisI</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::AdvanceIfEnd</definition>
+        <argsstring>()</argsstring>
+        <name>AdvanceIfEnd</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::AdvanceIfEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="902" column="10" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="902" bodyend="915"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a8109e708f537f839da8100b2695a1389" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::ComputeCurrentValue</definition>
+        <argsstring>()</argsstring>
+        <name>ComputeCurrentValue</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::ComputeCurrentValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="917" column="10" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="917" bodyend="920"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1ad3500d7ebd32880a2033fe405d9a1f19" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::AtEnd</definition>
+        <argsstring>() const</argsstring>
+        <name>AtEnd</name>
+        <qualifiedname>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;::AtEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="921" column="10" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="921" bodyend="927"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::internal::ParamIteratorInterface&lt; ParamType &gt;</label>
+        <link refid="classtesting_1_1internal_1_1_param_iterator_interface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>testing::internal::CartesianProductGenerator&lt; T &gt;::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>testing::internal::ParamIteratorInterface&lt; ParamType &gt;</label>
+        <link refid="classtesting_1_1internal_1_1_param_iterator_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" line="845" column="3" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h" bodystart="846" bodyend="934"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a68b4b03a23bde3c04ca7f2c2ef24951c" prot="public" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>Advance</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1ac8377556a64cde793ba560b17bba4ff1" prot="private" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>AdvanceIfEnd</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1ad3500d7ebd32880a2033fe405d9a1f19" prot="private" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>AtEnd</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1afddebd09dbe1d986ceefea65a8c77048" prot="private" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>base_</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1af7b2058a53baf7a2121dc1213970e974" prot="public" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>BaseGenerator</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1ac6d3f2de04cca7614a608a855e4c5df1" prot="private" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>begin_</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1aaaec997f517299d4a02b4c972098587b" prot="public" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>Clone</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a8109e708f537f839da8100b2695a1389" prot="private" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>ComputeCurrentValue</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a17f7fd410291bbab57b388d5ae04ebce" prot="public" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>Current</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a2f74c07aadf6e56a05e5441cab86a126" prot="private" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>current_</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a396f6bc21e13c858c603f7a88bf947e1" prot="private" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>current_value_</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a1378a8b23c0396f671044e6da9d37480" prot="private" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>end_</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a27f856e696d6c997ef8949fc25117b33" prot="public" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>Equals</name></member>
+      <member refid="classtesting_1_1internal_1_1_param_iterator_interface_1a9d811697a752d46f7bd6a0082f9040a3" prot="public" virt="pure-virtual" ambiguityscope="testing::internal::ParamIteratorInterface&lt; ParamType &gt;::"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>Equals</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1aaeeb2eecf09323334ae6fcf2d0326354" prot="public" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>IteratorImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01std_1_1index__sequence_3_01_i_8_8_8_01_4_01_4_1a78a047f1573288f112a4faabec69b129" prot="public" virt="non-virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>~IteratorImpl</name></member>
+      <member refid="classtesting_1_1internal_1_1_param_iterator_interface_1a98ef3f0e51b409e0f2e1aec237a7f5bf" prot="public" virt="virtual"><scope>testing::internal::CartesianProductGenerator::IteratorImpl&lt; std::index_sequence&lt; I... &gt; &gt;</scope><name>~ParamIteratorInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

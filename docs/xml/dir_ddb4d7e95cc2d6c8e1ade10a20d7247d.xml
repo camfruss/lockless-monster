@@ -2,8 +2,12 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="dir_ddb4d7e95cc2d6c8e1ade10a20d7247d" kind="dir">
     <compoundname>src/modules</compoundname>
-    <innerfile refid="lockless_8cppm">lockless.cppm</innerfile>
-    <innerfile refid="queue_8cppm">queue.cppm</innerfile>
+    <innerfile refid="concurrent_8cppm">concurrent.cppm</innerfile>
+    <innerfile refid="queue__interface_8cppm">queue_interface.cppm</innerfile>
+    <innerfile refid="queue__lockbased_8cpp">queue_lockbased.cpp</innerfile>
+    <innerfile refid="queue__lockbased_8cppm">queue_lockbased.cppm</innerfile>
+    <innerfile refid="rwlock_8cpp">rwlock.cpp</innerfile>
+    <innerfile refid="rwlock_8cppm">rwlock.cppm</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

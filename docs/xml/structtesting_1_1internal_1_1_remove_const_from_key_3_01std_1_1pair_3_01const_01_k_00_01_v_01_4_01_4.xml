@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1_remove_const_from_key_3_01std_1_1pair_3_01const_01_k_00_01_v_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::RemoveConstFromKey&lt; std::pair&lt; const K, V &gt; &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename K</type>
+      </param>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1_remove_const_from_key_3_01std_1_1pair_3_01const_01_k_00_01_v_01_4_01_4_1ac1d76274964aa8172889a4714246e86f" prot="public" static="no">
+        <type>std::pair&lt; K, V &gt;</type>
+        <definition>typedef std::pair&lt;K, V&gt; testing::internal::RemoveConstFromKey&lt; std::pair&lt; const K, V &gt; &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::RemoveConstFromKey&lt; std::pair&lt; const K, V &gt; &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h" line="416" column="21" bodyfile="build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structtesting_1_1internal_1_1_remove_const_from_key_1ab657b0a0fe4ebc499d27011f73c794c1" prot="public" static="no">
+        <type>std::pair&lt; const K, V &gt;</type>
+        <definition>typedef std::pair&lt; const K, V &gt; testing::internal::RemoveConstFromKey&lt; std::pair&lt; const K, V &gt; &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>testing::internal::RemoveConstFromKey&lt; std::pair&lt; const K, V &gt; &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h" line="410" column="13" bodyfile="build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h" line="415" column="1" bodyfile="build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h" bodystart="415" bodyend="417"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1_remove_const_from_key_3_01std_1_1pair_3_01const_01_k_00_01_v_01_4_01_4_1ac1d76274964aa8172889a4714246e86f" prot="public" virt="non-virtual"><scope>testing::internal::RemoveConstFromKey&lt; std::pair&lt; const K, V &gt; &gt;</scope><name>type</name></member>
+      <member refid="structtesting_1_1internal_1_1_remove_const_from_key_1ab657b0a0fe4ebc499d27011f73c794c1" prot="public" virt="non-virtual"><scope>testing::internal::RemoveConstFromKey&lt; std::pair&lt; const K, V &gt; &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

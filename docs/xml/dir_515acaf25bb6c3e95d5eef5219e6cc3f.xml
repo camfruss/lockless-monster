@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_515acaf25bb6c3e95d5eef5219e6cc3f" kind="dir">
+    <compoundname>build/_deps/googletest-src/googlemock/include/gmock/internal/custom</compoundname>
+    <innerfile refid="gmock-generated-actions_8h">gmock-generated-actions.h</innerfile>
+    <innerfile refid="internal_2custom_2gmock-matchers_8h">gmock-matchers.h</innerfile>
+    <innerfile refid="custom_2gmock-port_8h">gmock-port.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The custom directory is an injection point for custom user configurations.</para>
+<sect1 id="/Users/cameron/git/concurrent/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/README.md_1autotoc_md381">
+<title>Header <computeroutput>gmock-port.h</computeroutput></title><para>The following macros can be defined:</para>
+<sect2 id="/Users/cameron/git/concurrent/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/README.md_1autotoc_md382">
+<title>Flag related macros:</title><para><itemizedlist>
+<listitem><para><computeroutput>GMOCK_DECLARE_bool_(name)</computeroutput></para>
+</listitem><listitem><para><computeroutput>GMOCK_DECLARE_int32_(name)</computeroutput></para>
+</listitem><listitem><para><computeroutput>GMOCK_DECLARE_string_(name)</computeroutput></para>
+</listitem><listitem><para><computeroutput>GMOCK_DEFINE_bool_(name, default_val, doc)</computeroutput></para>
+</listitem><listitem><para><computeroutput>GMOCK_DEFINE_int32_(name, default_val, doc)</computeroutput></para>
+</listitem><listitem><para><computeroutput>GMOCK_DEFINE_string_(name, default_val, doc)</computeroutput></para>
+</listitem><listitem><para><computeroutput>GMOCK_FLAG_GET(flag_name)</computeroutput></para>
+</listitem><listitem><para><computeroutput>GMOCK_FLAG_SET(flag_name, value)</computeroutput> </para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googlemock/include/gmock/internal/custom/"/>
+  </compounddef>
+</doxygen>

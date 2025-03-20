@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespacegtest__help__test" kind="namespace" language="Python">
+    <compoundname>gtest_help_test</compoundname>
+    <innerclass refid="classgtest__help__test_1_1_g_test_help_test" prot="public">gtest_help_test::GTestHelpTest</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegtest__help__test_1a0ba139233f2ca4dc1c935df96485b853" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple gtest_help_test.FREEBSD</definition>
+        <argsstring></argsstring>
+        <name>FREEBSD</name>
+        <qualifiedname>gtest_help_test.FREEBSD</qualifiedname>
+        <initializer>=  (&apos;FreeBSD&apos;, &apos;GNU/kFreeBSD&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="46" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1acdf47774c6062d450b120404e2935bae" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple gtest_help_test.NETBSD</definition>
+        <argsstring></argsstring>
+        <name>NETBSD</name>
+        <qualifiedname>gtest_help_test.NETBSD</qualifiedname>
+        <initializer>=  (&apos;NetBSD&apos;,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="47" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a48ceda78b5c88686686c22acf2727c4c" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple gtest_help_test.OPENBSD</definition>
+        <argsstring></argsstring>
+        <name>OPENBSD</name>
+        <qualifiedname>gtest_help_test.OPENBSD</qualifiedname>
+        <initializer>=  (&apos;OpenBSD&apos;,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="48" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1af18c7a4d1d0cadc61acb17af3a2a0f4b" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.IS_DARWIN</definition>
+        <argsstring></argsstring>
+        <name>IS_DARWIN</name>
+        <qualifiedname>gtest_help_test.IS_DARWIN</qualifiedname>
+        <initializer>=  &apos;Darwin&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="59" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a632e4964a307abe5ee5da998c92e341c" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.IS_LINUX</definition>
+        <argsstring></argsstring>
+        <name>IS_LINUX</name>
+        <qualifiedname>gtest_help_test.IS_LINUX</qualifiedname>
+        <initializer>=  &apos;Linux&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="60" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1af04a1609d23f615de8e4d1eeb14590a2" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.IS_GNUHURD</definition>
+        <argsstring></argsstring>
+        <name>IS_GNUHURD</name>
+        <qualifiedname>gtest_help_test.IS_GNUHURD</qualifiedname>
+        <initializer>=  &apos;GNU&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="61" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a20e5cc75a8f91a31cfb7992526ec5e7f" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.IS_WINDOWS</definition>
+        <argsstring></argsstring>
+        <name>IS_WINDOWS</name>
+        <qualifiedname>gtest_help_test.IS_WINDOWS</qualifiedname>
+        <initializer>=  &apos;nt&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="62" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a52878eacdd3a1534fa4743e7d134066c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gtest_help_test.PROGRAM_PATH</definition>
+        <argsstring></argsstring>
+        <name>PROGRAM_PATH</name>
+        <qualifiedname>gtest_help_test.PROGRAM_PATH</qualifiedname>
+        <initializer>=  <ref refid="namespacegtest__test__utils_1a239f43ff0e44144cb5a1e14f3453c273" kindref="member">gtest_test_utils.GetTestExecutablePath</ref>(&apos;gtest_help_test_&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="64" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a1720bfe43ae077cf10144eac092dbf06" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.FLAG_PREFIX</definition>
+        <argsstring></argsstring>
+        <name>FLAG_PREFIX</name>
+        <qualifiedname>gtest_help_test.FLAG_PREFIX</qualifiedname>
+        <initializer>=  &apos;--gtest_&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="65" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a6cb2a895b844cfdb043509c0a1b63f92" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.DEATH_TEST_STYLE_FLAG</definition>
+        <argsstring></argsstring>
+        <name>DEATH_TEST_STYLE_FLAG</name>
+        <qualifiedname>gtest_help_test.DEATH_TEST_STYLE_FLAG</qualifiedname>
+        <initializer>=  FLAG_PREFIX + &apos;death_test_style&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="66" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a1094472443c726b85c865be4812cf7e5" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.STREAM_RESULT_TO_FLAG</definition>
+        <argsstring></argsstring>
+        <name>STREAM_RESULT_TO_FLAG</name>
+        <qualifiedname>gtest_help_test.STREAM_RESULT_TO_FLAG</qualifiedname>
+        <initializer>=  FLAG_PREFIX + &apos;stream_result_to&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="67" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a8042d23335fc9d58d3e8dc671b21c2d5" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.LIST_TESTS_FLAG</definition>
+        <argsstring></argsstring>
+        <name>LIST_TESTS_FLAG</name>
+        <qualifiedname>gtest_help_test.LIST_TESTS_FLAG</qualifiedname>
+        <initializer>=  FLAG_PREFIX + &apos;list_tests&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="68" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a98aa9b0964ac6ba4ccfcd705f73b8cdd" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.INTERNAL_FLAG_FOR_TESTING</definition>
+        <argsstring></argsstring>
+        <name>INTERNAL_FLAG_FOR_TESTING</name>
+        <qualifiedname>gtest_help_test.INTERNAL_FLAG_FOR_TESTING</qualifiedname>
+        <initializer>=  FLAG_PREFIX + &apos;internal_flag_for_testing&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="69" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a4cb81fa6176c27190f6de042cdbab69a" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple gtest_help_test.SUPPORTS_DEATH_TESTS</definition>
+        <argsstring></argsstring>
+        <name>SUPPORTS_DEATH_TESTS</name>
+        <qualifiedname>gtest_help_test.SUPPORTS_DEATH_TESTS</qualifiedname>
+        <initializer>=  (
+    &apos;DeathTest&apos;
+    in <ref refid="classgtest__test__utils_1_1_subprocess" kindref="compound">gtest_test_utils.Subprocess</ref>([PROGRAM_PATH, LIST_TESTS_FLAG]).output
+)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="71" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1a93cc435fd78ee82019454d0c026ca198" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str gtest_help_test.HAS_ABSL_FLAGS</definition>
+        <argsstring></argsstring>
+        <name>HAS_ABSL_FLAGS</name>
+        <qualifiedname>gtest_help_test.HAS_ABSL_FLAGS</qualifiedname>
+        <initializer>=  &apos;--has_absl_flags&apos; in sys.argv</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="76" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegtest__help__test_1acaee97106f5b6ad6de66778688d4b906" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>gtest_help_test.HELP_REGEX</definition>
+        <argsstring></argsstring>
+        <name>HELP_REGEX</name>
+        <qualifiedname>gtest_help_test.HELP_REGEX</qualifiedname>
+        <initializer>=  re.compile(
+    FLAG_PREFIX
+    + r&apos;list_tests.*&apos;
+    + FLAG_PREFIX
+    + r&apos;filter=.*&apos;
+    + FLAG_PREFIX
+    + r&apos;also_run_disabled_tests.*&apos;
+    + FLAG_PREFIX
+    + r&apos;repeat=.*&apos;
+    + FLAG_PREFIX
+    + r&apos;shuffle.*&apos;
+    + FLAG_PREFIX
+    + r&apos;random_seed=.*&apos;
+    + FLAG_PREFIX
+    + r&apos;color=.*&apos;
+    + FLAG_PREFIX
+    + r&apos;brief.*&apos;
+    + FLAG_PREFIX
+    + r&apos;print_time.*&apos;
+    + FLAG_PREFIX
+    + r&apos;output=.*&apos;
+    + FLAG_PREFIX
+    + r&apos;break_on_failure.*&apos;
+    + FLAG_PREFIX
+    + r&apos;throw_on_failure.*&apos;
+    + FLAG_PREFIX
+    + r&apos;catch_exceptions=0.*&apos;,
+    re.DOTALL,
+)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="79" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="79" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegtest__help__test_1aacf0f9f77444fcfa6c66eda508a9728b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool gtest_help_test.is_bsd_based_os</definition>
+        <argsstring>()</argsstring>
+        <name>is_bsd_based_os</name>
+        <qualifiedname>gtest_help_test.is_bsd_based_os</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Determine whether or not the OS is BSD-based.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="51" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacegtest__help__test_1a3bc360e67ea70e1a210d608bdffbd3de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gtest_help_test.run_with_flag</definition>
+        <argsstring>(flag)</argsstring>
+        <name>run_with_flag</name>
+        <qualifiedname>gtest_help_test.run_with_flag</qualifiedname>
+        <param>
+          <type>flag</type>
+          <defname>flag</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Runs gtest_help_test_ with the given flag.
+
+Returns:
+  the exit code and the text output as a tuple.
+Args:
+  flag: the command-line flag to pass to gtest_help_test_, or None.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="110" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="110" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Tests the --help flag of Google C++ Testing and Mocking Framework.
+
+SYNOPSIS
+       gtest_help_test.py --build_dir=BUILD/DIR
+         # where BUILD/DIR contains the built gtest_help_test_ file.
+       gtest_help_test.py
+</verbatim> </para>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

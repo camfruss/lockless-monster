@@ -7,21 +7,48 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline><highlight class="normal">#<sp/>lockless-monster</highlight></codeline>
+<codeline><highlight class="normal">#<sp/>Concurrent</highlight></codeline>
 <codeline></codeline>
+<codeline><highlight class="normal">A<sp/>collection<sp/>of<sp/>lock-based<sp/>and<sp/>lock-free<sp/>data<sp/>structures</highlight></codeline>
 <codeline></codeline>
-<codeline><highlight class="normal">```txt</highlight></codeline>
-<codeline><highlight class="normal">GENERATE_XML<sp/>=<sp/>YES</highlight></codeline>
-<codeline><highlight class="normal">RECURSIVE<sp/>=<sp/>YES</highlight></codeline>
-<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">##<sp/>About</highlight></codeline>
 <codeline></codeline>
-<codeline><highlight class="normal">To<sp/>keep<sp/>a<sp/>clean<sp/>root<sp/>directory,<sp/>keep<sp/>all<sp/>CMake<sp/>files<sp/>in<sp/>the<sp/>`build`<sp/>directory:</highlight></codeline>
-<codeline><highlight class="normal">```Bash</highlight></codeline>
-<codeline><highlight class="normal">cd<sp/>./build</highlight></codeline>
-<codeline><highlight class="normal">cmake<sp/>..</highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Getting<sp/>Started</highlight></codeline>
 <codeline></codeline>
-<codeline><highlight class="normal">cmake<sp/>--build<sp/>./build<sp/>--target<sp/>generate_docs</highlight></codeline>
-<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Prerequisites</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>C++20</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Ninja</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>googletest</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Installation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Please<sp/>refer<sp/>to<sp/>the<sp/>compelete<sp/>[documentation](https://camfruss.github.io/concurrent/)<sp/>or<sp/>the<sp/>detailed<sp/>[examples](examples/)<sp/>for<sp/>further<sp/>guidance.<sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Roadmap</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>[<sp/>]<sp/>Proposed<sp/>Data<sp/>Structures</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>[<sp/>]<sp/>Queue</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>[<sp/>]<sp/>Stack</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>[<sp/>]<sp/>Ring<sp/>Buffer</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>[<sp/>]<sp/>\(Counting)<sp/>Bloom<sp/>Filter</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>[<sp/>]<sp/>Priority<sp/>Queue</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>[<sp/>]<sp/>Red-Black<sp/>Tree</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[<sp/>]<sp/>Build<sp/>out<sp/>testing<sp/>suite</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[<sp/>]<sp/>Conan</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[<sp/>]<sp/>GitHub<sp/>Actions</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">See<sp/>[open<sp/>issues](https://github.com/camfruss/concurrent/issues)<sp/>for<sp/>a<sp/>full<sp/>list<sp/>of<sp/>known<sp/>issues.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Contributing</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>License</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[MIT](https://choosealicense.com/licenses/mit/)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Contact<sp/></highlight></codeline>
 <codeline></codeline>
     </programlisting>
     <location file="README.md"/>

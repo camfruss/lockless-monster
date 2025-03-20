@@ -1,7 +1,65 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.13.2" xml:lang="en-US">
-  <compound refid="classlockless_1_1queue_1_1_queue" kind="class"><name>lockless::queue::Queue</name>
-    <member refid="classlockless_1_1queue_1_1_queue_1a1d1d1ad01d245dc276e7efea6133696b" kind="function"><name>Queue</name></member>
+  <compound refid="structconcurrent_1_1stack_1_1_node" kind="struct"><name>concurrent::stack::Node</name>
+    <member refid="structconcurrent_1_1stack_1_1_node_1a22c368857720dda2e0666196c633cb3a" kind="variable"><name>m_nextNode</name></member>
+    <member refid="structconcurrent_1_1stack_1_1_node_1a913cdd61f505e65b1e897bd5972210a2" kind="variable"><name>m_nodeValue</name></member>
+    <member refid="structconcurrent_1_1stack_1_1_node_1af1246fcef3ad6fa9c8eb09643b244412" kind="function"><name>Node</name></member>
+  </compound>
+  <compound refid="classconcurrent_1_1lockbased_1_1queue" kind="class"><name>concurrent::lockbased::queue</name>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1a0b6180ed0e06885bab08b4db48622db5" kind="variable"><name>m_queue</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1afee8bf0f515b09635c0ce1c51691016d" kind="variable"><name>m_mutex</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1ae70befb0b824def94973baf51de973aa" kind="function"><name>front</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1ae81e287a44c578d80d1285b06f2481ad" kind="function"><name>back</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1af73bd1cd739018b10f4905aac7d5e1b5" kind="function"><name>empty</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1ac9a5c0f84ab48f8552449a2b4e3fba09" kind="function"><name>size</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1acc48a1e0480f04c4de8e10d913046527" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1a0a803fee7af3bb20a45ced39965804e3" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1ab5ea1f7e8f52f676bc7cabc71da029c1" kind="function"><name>pop</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1af53ef8f6009e6dc58739973d89cad3ad" kind="function"><name>swap</name></member>
+  </compound>
+  <compound refid="classconcurrent_1_1queue" kind="class"><name>concurrent::queue</name>
+    <member refid="classconcurrent_1_1queue_1a1a78ad391843cfd5a4bee70b53df7a30" kind="function"><name>queue</name></member>
+    <member refid="classconcurrent_1_1queue_1ae7649b09bf8c4a93249991bf2e283a82" kind="function"><name>~queue</name></member>
+    <member refid="classconcurrent_1_1queue_1a56efda117d8a7a4f523fbf9117f8ce7a" kind="function"><name>front</name></member>
+    <member refid="classconcurrent_1_1queue_1a4404b1207dee3f8b0003cd1c725585cb" kind="function"><name>back</name></member>
+    <member refid="classconcurrent_1_1queue_1a7f6880a9bbe31b2799c825b2e3380a3a" kind="function"><name>empty</name></member>
+    <member refid="classconcurrent_1_1queue_1af91be40bb48a79dea5446f98644bb3f9" kind="function"><name>size</name></member>
+    <member refid="classconcurrent_1_1queue_1a252522233ac34114942a7907adfa1d6b" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1queue_1a83205e3c05b3065d87ba97c39e375b7a" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1queue_1ab62d4c18acfd34f6e24fdecf7832af95" kind="function"><name>push_range</name></member>
+    <member refid="classconcurrent_1_1queue_1a4a7e942e05957500dee1c0b35a270603" kind="function"><name>emplace</name></member>
+    <member refid="classconcurrent_1_1queue_1a86bc70fb1c830e8380aab511472bf3e0" kind="function"><name>emplace_range</name></member>
+    <member refid="classconcurrent_1_1queue_1acf7ae67fd2eb80cff0ac7c5b9fd11712" kind="function"><name>pop</name></member>
+    <member refid="classconcurrent_1_1queue_1a270dbb431549e5a41aad7d40fe5f028a" kind="function"><name>swap</name></member>
+  </compound>
+  <compound refid="classconcurrent_1_1rwlock" kind="class"><name>concurrent::rwlock</name>
+    <member refid="classconcurrent_1_1rwlock_1aed99c18aafa9585f7373184e39c8489d" kind="variable"><name>m_mutex</name></member>
+    <member refid="classconcurrent_1_1rwlock_1a8a51924db0c26327aa14cf505cb7e2df" kind="variable"><name>m_data</name></member>
+    <member refid="classconcurrent_1_1rwlock_1ad11286d46b1644613c34ec5495fad473" kind="function"><name>rwlock</name></member>
+    <member refid="classconcurrent_1_1rwlock_1ab9a26feb1b87d712fa93854b10c7a3d9" kind="function"><name>rwlock</name></member>
+    <member refid="classconcurrent_1_1rwlock_1af1fc6ec0e1103283766fd529a729ca0d" kind="function"><name>rwlock</name></member>
+    <member refid="classconcurrent_1_1rwlock_1aedeeb311d9ea447692f719a101807d0b" kind="function"><name>operator=</name></member>
+    <member refid="classconcurrent_1_1rwlock_1a7dfe821e4f121094d969781444e5eb2a" kind="function"><name>read</name></member>
+    <member refid="classconcurrent_1_1rwlock_1ae4dcd9d41e9cb03824d7f96a6791fcf6" kind="function"><name>write</name></member>
+  </compound>
+  <compound refid="classconcurrent_1_1stack" kind="class"><name>concurrent::stack</name>
+    <member refid="classconcurrent_1_1stack_1ac4fccf817425bf9dd286604004c22ea4" kind="variable"><name>m_head</name></member>
+    <member refid="classconcurrent_1_1stack_1afb887c38eedcd084dd6e2d9e9af2f7be" kind="variable"><name>m_size</name></member>
+    <member refid="classconcurrent_1_1stack_1a382e6abc137ff667d3c2a63965aa5817" kind="function"><name>stack</name></member>
+    <member refid="classconcurrent_1_1stack_1a4355429a69cef0884b890abe4dd6d4d6" kind="function"><name>~stack</name></member>
+    <member refid="classconcurrent_1_1stack_1a8fd74e48c23e6434944ce94fcaa80b65" kind="function"><name>stack</name></member>
+    <member refid="classconcurrent_1_1stack_1af51972ab9db563f617e51c9e3f567e94" kind="function"><name>operator=</name></member>
+    <member refid="classconcurrent_1_1stack_1a010dbf3d92445b674327c9a3fb94a8c0" kind="function"><name>top</name></member>
+    <member refid="classconcurrent_1_1stack_1a0e739a97b1881188689b036aad9bca50" kind="function"><name>empty</name></member>
+    <member refid="classconcurrent_1_1stack_1a5b9e6e79f2097ac09b68c339fde65c97" kind="function"><name>size</name></member>
+    <member refid="classconcurrent_1_1stack_1a10600161a5ffd0dfa7ffc5fe13940061" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1stack_1aecb65507bcb45f63976ae91c8095278d" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1stack_1a1b0e8395c91024f759bcb758ace398be" kind="function"><name>pop</name></member>
+    <member refid="classconcurrent_1_1stack_1a2b45329dc0d64a20bbbf29f3b8f3e2b1" kind="function"><name>swap</name></member>
+  </compound>
+  <compound refid="namespaceconcurrent" kind="namespace"><name>concurrent</name>
+  </compound>
+  <compound refid="namespaceconcurrent_1_1lockbased" kind="namespace"><name>concurrent::lockbased</name>
   </compound>
   <compound refid="namespaceconf" kind="namespace"><name>conf</name>
     <member refid="conf_8py_1a2803387c30920e3e74f46eb541db430d" kind="variable"><name>project</name></member>
@@ -15,73 +73,255 @@
     <member refid="conf_8py_1a012ba9863b958ed7baa933116f2a05b6" kind="variable"><name>html_theme</name></member>
     <member refid="conf_8py_1af4fb5d8851ccaade135c2668dd3ced41" kind="variable"><name>html_static_path</name></member>
   </compound>
-  <compound refid="namespacelockless" kind="namespace"><name>lockless</name>
+  <compound refid="gmock-all_8cc_8o_8ddi_8d" kind="file"><name>gmock-all.cc.o.ddi.d</name>
   </compound>
-  <compound refid="namespacelockless_1_1queue" kind="namespace"><name>lockless::queue</name>
+  <compound refid="gmock__main_8cc_8o_8ddi_8d" kind="file"><name>gmock_main.cc.o.ddi.d</name>
   </compound>
-  <compound refid="_c_make_c_compiler_id_8c" kind="file"><name>CMakeCCompilerId.c</name>
-    <member refid="_c_make_c_compiler_id_8c_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1adaee3ee7c5a7a22451ea25e762e1d7d5" kind="define"><name>C_VERSION</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
-    <member refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  <compound refid="gtest-all_8cc_8o_8ddi_8d" kind="file"><name>gtest-all.cc.o.ddi.d</name>
   </compound>
-  <compound refid="_c_make_c_x_x_compiler_id_8cpp" kind="file"><name>CMakeCXXCompilerId.cpp</name>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a34cc889e576a1ae6c84ae9e0a851ba21" kind="define"><name>CXX_STD</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
-    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  <compound refid="gtest__main_8cc_8o_8ddi_8d" kind="file"><name>gtest_main.cc.o.ddi.d</name>
+  </compound>
+  <compound refid="concurrent_8cppm_8o_8ddi_8d" kind="file"><name>concurrent.cppm.o.ddi.d</name>
+  </compound>
+  <compound refid="queue__interface_8cppm_8o_8ddi_8d" kind="file"><name>queue_interface.cppm.o.ddi.d</name>
+  </compound>
+  <compound refid="queue__lockbased_8cpp_8o_8ddi_8d" kind="file"><name>queue_lockbased.cpp.o.ddi.d</name>
+  </compound>
+  <compound refid="queue__lockbased_8cppm_8o_8ddi_8d" kind="file"><name>queue_lockbased.cppm.o.ddi.d</name>
+  </compound>
+  <compound refid="rwlock_8cpp_8o_8ddi_8d" kind="file"><name>rwlock.cpp.o.ddi.d</name>
+  </compound>
+  <compound refid="rwlock_8cppm_8o_8ddi_8d" kind="file"><name>rwlock.cppm.o.ddi.d</name>
+  </compound>
+  <compound refid="rwlock__tests_8cpp_8o_8ddi_8d" kind="file"><name>rwlock_tests.cpp.o.ddi.d</name>
   </compound>
   <compound refid="conf_8py" kind="file"><name>conf.py</name>
   </compound>
+  <compound refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c" kind="file"><name>CMakeCCompilerId.c</name>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1adaee3ee7c5a7a22451ea25e762e1d7d5" kind="define"><name>C_VERSION</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c" kind="file"><name>CMakeCCompilerId.c</name>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1adaee3ee7c5a7a22451ea25e762e1d7d5" kind="define"><name>C_VERSION</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_2_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp" kind="file"><name>CMakeCXXCompilerId.cpp</name>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a34cc889e576a1ae6c84ae9e0a851ba21" kind="define"><name>CXX_STD</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
+    <member refid="build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp" kind="file"><name>CMakeCXXCompilerId.cpp</name>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a34cc889e576a1ae6c84ae9e0a851ba21" kind="define"><name>CXX_STD</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
+    <member refid="examples_2build_2_c_make_files_23_829_86_2_compiler_id_c_x_x_2_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_n_o_t_e_s_8md" kind="file"><name>NOTES.md</name>
+  </compound>
+  <compound refid="examples_2_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
   <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
   </compound>
-  <compound refid="lockless_8cppm" kind="file"><name>lockless.cppm</name>
+  <compound refid="concurrent_8cppm" kind="file"><name>concurrent.cppm</name>
   </compound>
-  <compound refid="queue_8cppm" kind="file"><name>queue.cppm</name>
+  <compound refid="queue__interface_8cppm" kind="file"><name>queue_interface.cppm</name>
+  </compound>
+  <compound refid="queue__lockbased_8cpp" kind="file"><name>queue_lockbased.cpp</name>
+  </compound>
+  <compound refid="queue__lockbased_8cppm" kind="file"><name>queue_lockbased.cppm</name>
+  </compound>
+  <compound refid="rwlock_8cpp" kind="file"><name>rwlock.cpp</name>
+  </compound>
+  <compound refid="rwlock_8cppm" kind="file"><name>rwlock.cppm</name>
+  </compound>
+  <compound refid="stack_8cpp" kind="file"><name>stack.cpp</name>
+    <member refid="stack_8cpp_1a66e2c9b574936551d45b46892e16a87e" kind="function"><name>push</name></member>
+    <member refid="stack_8cpp_1a14e342e46e25c0badae4026a93e0c153" kind="function"><name>push</name></member>
+    <member refid="stack_8cpp_1a312e7f6c761a199c1369fbe651e084f0" kind="function"><name>pop</name></member>
+    <member refid="stack_8cpp_1ac928c0385dbcdd62cac0c4b7d3809791" kind="function"><name>swap</name></member>
+  </compound>
+  <compound refid="stack_8cppm" kind="file"><name>stack.cppm</name>
+  </compound>
+  <compound refid="rwlock__tests_8cpp" kind="file"><name>rwlock_tests.cpp</name>
+    <member refid="rwlock__tests_8cpp_1a4b855d98c3a4b8a99424be61c0bef44c" kind="function"><name>TEST</name></member>
+  </compound>
+  <compound refid="md__n_o_t_e_s" kind="page"><name>md__n_o_t_e_s</name>
   </compound>
   <compound refid="md__r_e_a_d_m_e" kind="page"><name>md__r_e_a_d_m_e</name>
   </compound>
   <compound refid="dir_04114acd2b3b351c6c6a386262b2ddb6" kind="dir"><name>build/CMakeFiles/3.29.6</name>
   </compound>
+  <compound refid="dir_55bb6c0df24144849ad4665dc73758cb" kind="dir"><name>examples/build/CMakeFiles/3.29.6</name>
+  </compound>
+  <compound refid="dir_a57a94e38c03835eed49274b75b0176d" kind="dir"><name>build/_deps</name>
+  </compound>
   <compound refid="dir_4fef79e7177ba769987a8da36c892c5f" kind="dir"><name>build</name>
+  </compound>
+  <compound refid="dir_8c4ea7d64f604c45fe38cd6a53b6f22b" kind="dir"><name>examples/build</name>
+  </compound>
+  <compound refid="dir_2a0270bb68397befc86c6984608a4aea" kind="dir"><name>build/_deps/googletest-build/googlemock/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_87ca077bb0b5be35bae01a871afbb0f7" kind="dir"><name>build/_deps/googletest-build/googletest/CMakeFiles</name>
   </compound>
   <compound refid="dir_63772b626f2709090f0bdca0f40827b4" kind="dir"><name>build/CMakeFiles</name>
   </compound>
+  <compound refid="dir_b67b133a83ac3df5d719be61f4ee2417" kind="dir"><name>build/tests/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_01e578d865c25587061b0f85e85661a0" kind="dir"><name>examples/build/CMakeFiles</name>
+  </compound>
   <compound refid="dir_03cc1fceb77b2d3622a108b0cb6afe5e" kind="dir"><name>build/CMakeFiles/3.29.6/CompilerIdC</name>
+  </compound>
+  <compound refid="dir_74b48f5b0d085796ba5158c044548fdd" kind="dir"><name>examples/build/CMakeFiles/3.29.6/CompilerIdC</name>
   </compound>
   <compound refid="dir_445428347a189a835487e1c0b6ca1bea" kind="dir"><name>build/CMakeFiles/3.29.6/CompilerIdCXX</name>
   </compound>
+  <compound refid="dir_dac3af6746ba369b5c6ee421d64e40a9" kind="dir"><name>examples/build/CMakeFiles/3.29.6/CompilerIdCXX</name>
+  </compound>
+  <compound refid="dir_884a0ea6debe3d79a634c34e6d649153" kind="dir"><name>build/CMakeFiles/concurrent.dir</name>
+  </compound>
   <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_d28a4824dc47e487b107a5db32ef43c4" kind="dir"><name>examples</name>
+  </compound>
+  <compound refid="dir_3c1132853d69eb0de1acdfdc8b24c3a2" kind="dir"><name>build/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir</name>
+  </compound>
+  <compound refid="dir_57f6b82a75f311209041a765b53333c1" kind="dir"><name>build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir</name>
+  </compound>
+  <compound refid="dir_d80e0d50e03b47b60dadbd7502787760" kind="dir"><name>build/_deps/googletest-build/googlemock</name>
+  </compound>
+  <compound refid="dir_8a793e628ba08397ef92581a324d0bab" kind="dir"><name>build/_deps/googletest-build/googletest</name>
+  </compound>
+  <compound refid="dir_e57a5be893c77bea9eca1d890c8b0e94" kind="dir"><name>build/_deps/googletest-build</name>
+  </compound>
+  <compound refid="dir_94f3a380a549aa74139e5b2c263a33a6" kind="dir"><name>build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir</name>
+  </compound>
+  <compound refid="dir_c3a9c827d9c8c6dbe9e973d9617859e9" kind="dir"><name>build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir</name>
+  </compound>
+  <compound refid="dir_287b7114f4da5faee680afe135c230b1" kind="dir"><name>build/CMakeFiles/concurrent.dir/src/modules</name>
   </compound>
   <compound refid="dir_ddb4d7e95cc2d6c8e1ade10a20d7247d" kind="dir"><name>src/modules</name>
   </compound>
   <compound refid="dir_a126c530d31a580b439a365344a00174" kind="dir"><name>docs/sphinx</name>
   </compound>
+  <compound refid="dir_5187db6318a8445db7987b20abeba904" kind="dir"><name>build/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src</name>
+  </compound>
+  <compound refid="dir_eb60a2acaba312e5cf91d3e810dd9f0e" kind="dir"><name>build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src</name>
+  </compound>
+  <compound refid="dir_91ca58ec99b2d4f6fc0a7ce202593903" kind="dir"><name>build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src</name>
+  </compound>
+  <compound refid="dir_db7e7b3c4b7aef79aa62b04d1f9b5b96" kind="dir"><name>build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src</name>
+  </compound>
+  <compound refid="dir_64d349d1301e86bf2f4585e6a0c3c132" kind="dir"><name>build/CMakeFiles/concurrent.dir/src</name>
+  </compound>
   <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
   </compound>
-  <compound refid="module__lockless" kind="module"><name>lockless</name>
-    <member refid="classlockless_1_1queue_1_1_queue_1a1d1d1ad01d245dc276e7efea6133696b" kind="function"><name>Queue</name></member>
+  <compound refid="dir_a30fd5000947d323a9f363d528741348" kind="dir"><name>build/tests</name>
+  </compound>
+  <compound refid="dir_59425e443f801f1f2fd8bbe4959a3ccf" kind="dir"><name>tests</name>
+  </compound>
+  <compound refid="dir_cc889cf8636f831fcbc1c5d270a8481b" kind="dir"><name>build/tests/CMakeFiles/tests.dir</name>
+  </compound>
+  <compound refid="dir_7b46c1221ca7d8983df05fc1cfa312fe" kind="dir"><name>src/todo</name>
+  </compound>
+  <compound refid="module__concurrent" kind="module"><name>concurrent</name>
+  </compound>
+  <compound refid="module__queue_8interface" kind="module"><name>queue.interface</name>
+    <member refid="classconcurrent_1_1queue_1a1a78ad391843cfd5a4bee70b53df7a30" kind="function"><name>queue</name></member>
+    <member refid="classconcurrent_1_1queue_1ae7649b09bf8c4a93249991bf2e283a82" kind="function"><name>~queue</name></member>
+    <member refid="classconcurrent_1_1queue_1a56efda117d8a7a4f523fbf9117f8ce7a" kind="function"><name>front</name></member>
+    <member refid="classconcurrent_1_1queue_1a4404b1207dee3f8b0003cd1c725585cb" kind="function"><name>back</name></member>
+    <member refid="classconcurrent_1_1queue_1a7f6880a9bbe31b2799c825b2e3380a3a" kind="function"><name>empty</name></member>
+    <member refid="classconcurrent_1_1queue_1af91be40bb48a79dea5446f98644bb3f9" kind="function"><name>size</name></member>
+    <member refid="classconcurrent_1_1queue_1a252522233ac34114942a7907adfa1d6b" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1queue_1a83205e3c05b3065d87ba97c39e375b7a" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1queue_1ab62d4c18acfd34f6e24fdecf7832af95" kind="function"><name>push_range</name></member>
+    <member refid="classconcurrent_1_1queue_1a4a7e942e05957500dee1c0b35a270603" kind="function"><name>emplace</name></member>
+    <member refid="classconcurrent_1_1queue_1a86bc70fb1c830e8380aab511472bf3e0" kind="function"><name>emplace_range</name></member>
+    <member refid="classconcurrent_1_1queue_1acf7ae67fd2eb80cff0ac7c5b9fd11712" kind="function"><name>pop</name></member>
+    <member refid="classconcurrent_1_1queue_1a270dbb431549e5a41aad7d40fe5f028a" kind="function"><name>swap</name></member>
+  </compound>
+  <compound refid="module__concurrent_8lockbased_8queue" kind="module"><name>concurrent.lockbased.queue</name>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1a0b6180ed0e06885bab08b4db48622db5" kind="variable"><name>m_queue</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1afee8bf0f515b09635c0ce1c51691016d" kind="variable"><name>m_mutex</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1ae70befb0b824def94973baf51de973aa" kind="function"><name>front</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1ae81e287a44c578d80d1285b06f2481ad" kind="function"><name>back</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1af73bd1cd739018b10f4905aac7d5e1b5" kind="function"><name>empty</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1ac9a5c0f84ab48f8552449a2b4e3fba09" kind="function"><name>size</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1acc48a1e0480f04c4de8e10d913046527" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1a0a803fee7af3bb20a45ced39965804e3" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1ab5ea1f7e8f52f676bc7cabc71da029c1" kind="function"><name>pop</name></member>
+    <member refid="classconcurrent_1_1lockbased_1_1queue_1af53ef8f6009e6dc58739973d89cad3ad" kind="function"><name>swap</name></member>
+  </compound>
+  <compound refid="module__concurrent_8rwlock" kind="module"><name>concurrent.rwlock</name>
+  </compound>
+  <compound refid="module__stack" kind="module"><name>stack</name>
+    <member refid="structconcurrent_1_1stack_1_1_node_1a22c368857720dda2e0666196c633cb3a" kind="variable"><name>m_nextNode</name></member>
+    <member refid="structconcurrent_1_1stack_1_1_node_1a913cdd61f505e65b1e897bd5972210a2" kind="variable"><name>m_nodeValue</name></member>
+    <member refid="classconcurrent_1_1stack_1ac4fccf817425bf9dd286604004c22ea4" kind="variable"><name>m_head</name></member>
+    <member refid="classconcurrent_1_1stack_1afb887c38eedcd084dd6e2d9e9af2f7be" kind="variable"><name>m_size</name></member>
+    <member refid="structconcurrent_1_1stack_1_1_node_1af1246fcef3ad6fa9c8eb09643b244412" kind="function"><name>Node</name></member>
+    <member refid="classconcurrent_1_1stack_1a382e6abc137ff667d3c2a63965aa5817" kind="function"><name>stack</name></member>
+    <member refid="classconcurrent_1_1stack_1a4355429a69cef0884b890abe4dd6d4d6" kind="function"><name>~stack</name></member>
+    <member refid="classconcurrent_1_1stack_1a8fd74e48c23e6434944ce94fcaa80b65" kind="function"><name>stack</name></member>
+    <member refid="classconcurrent_1_1stack_1af51972ab9db563f617e51c9e3f567e94" kind="function"><name>operator=</name></member>
+    <member refid="classconcurrent_1_1stack_1a010dbf3d92445b674327c9a3fb94a8c0" kind="function"><name>top</name></member>
+    <member refid="classconcurrent_1_1stack_1a0e739a97b1881188689b036aad9bca50" kind="function"><name>empty</name></member>
+    <member refid="classconcurrent_1_1stack_1a5b9e6e79f2097ac09b68c339fde65c97" kind="function"><name>size</name></member>
+    <member refid="classconcurrent_1_1stack_1a10600161a5ffd0dfa7ffc5fe13940061" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1stack_1aecb65507bcb45f63976ae91c8095278d" kind="function"><name>push</name></member>
+    <member refid="classconcurrent_1_1stack_1a1b0e8395c91024f759bcb758ace398be" kind="function"><name>pop</name></member>
+    <member refid="classconcurrent_1_1stack_1a2b45329dc0d64a20bbbf29f3b8f3e2b1" kind="function"><name>swap</name></member>
   </compound>
 </doxygenindex>

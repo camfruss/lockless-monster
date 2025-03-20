@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="module__queue_8lockbased" kind="module">
+    <compoundname>queue.lockbased</compoundname>
+    <innerfile refid="queue__lockbased_8cppm">queue_lockbased.cppm</innerfile>
+    <innerclass refid="classconcurrent_1_1lockbased_1_1queue" prot="public">concurrent::lockbased::queue</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="classconcurrent_1_1lockbased_1_1queue_1a0b6180ed0e06885bab08b4db48622db5" prot="private" static="no" mutable="no">
+        <type>std::queue&lt; T &gt;</type>
+        <definition>std::queue&lt;T&gt; concurrent::lockbased::queue&lt; T &gt;::m_queue</definition>
+        <argsstring></argsstring>
+        <name>m_queue</name>
+        <qualifiedname>concurrent::lockbased::queue::m_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="15" column="12" bodyfile="src/modules/queue_lockbased.cppm" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classconcurrent_1_1lockbased_1_1queue_1afee8bf0f515b09635c0ce1c51691016d" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex concurrent::lockbased::queue&lt; T &gt;::m_mutex</definition>
+        <argsstring></argsstring>
+        <name>m_mutex</name>
+        <qualifiedname>concurrent::lockbased::queue::m_mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_lockbased.cppm" line="16" column="12" bodyfile="src/modules/queue_lockbased.cppm" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/modules/queue_lockbased.cppm" line="1" column="15"/>
+  </compounddef>
+</doxygen>

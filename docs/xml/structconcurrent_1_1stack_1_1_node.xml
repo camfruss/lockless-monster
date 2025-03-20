@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structconcurrent_1_1stack_1_1_node" kind="struct" language="C++" prot="private">
+    <compoundname>concurrent::stack::Node</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structconcurrent_1_1stack_1_1_node_1a22c368857720dda2e0666196c633cb3a" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Node &gt;</type>
+        <definition>std::unique_ptr&lt;Node&gt; concurrent::stack&lt; T &gt;::Node::m_nextNode</definition>
+        <argsstring></argsstring>
+        <name>m_nextNode</name>
+        <qualifiedname>concurrent::stack::Node::m_nextNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="24" column="17" bodyfile="src/todo/stack.cppm" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structconcurrent_1_1stack_1_1_node_1a913cdd61f505e65b1e897bd5972210a2" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T concurrent::stack&lt; T &gt;::Node::m_nodeValue</definition>
+        <argsstring></argsstring>
+        <name>m_nodeValue</name>
+        <qualifiedname>concurrent::stack::Node::m_nodeValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="25" column="3" bodyfile="src/todo/stack.cppm" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structconcurrent_1_1stack_1_1_node_1af1246fcef3ad6fa9c8eb09643b244412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>concurrent::stack&lt; T &gt;::Node::Node</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>Node</name>
+        <qualifiedname>concurrent::stack::Node::Node</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="20" column="1" bodyfile="src/todo/stack.cppm" bodystart="20" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/todo/stack.cppm" line="18" column="1" bodyfile="src/todo/stack.cppm" bodystart="19" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structconcurrent_1_1stack_1_1_node_1a22c368857720dda2e0666196c633cb3a" prot="public" virt="non-virtual"><scope>concurrent::stack::Node</scope><name>m_nextNode</name></member>
+      <member refid="structconcurrent_1_1stack_1_1_node_1a913cdd61f505e65b1e897bd5972210a2" prot="public" virt="non-virtual"><scope>concurrent::stack::Node</scope><name>m_nodeValue</name></member>
+      <member refid="structconcurrent_1_1stack_1_1_node_1af1246fcef3ad6fa9c8eb09643b244412" prot="public" virt="non-virtual"><scope>concurrent::stack::Node</scope><name>Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

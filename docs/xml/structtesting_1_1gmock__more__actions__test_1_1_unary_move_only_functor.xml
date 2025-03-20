@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor" kind="struct" language="C++" prot="public">
+    <compoundname>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor</compoundname>
+    <basecompoundref refid="structtesting_1_1gmock__more__actions__test_1_1_unary_functor" prot="public" virt="non-virtual">testing::gmock_more_actions_test::UnaryFunctor</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor_1aea63fd6c0c0304f481d2a9dbc410493c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor::UnaryMoveOnlyFunctor</definition>
+        <argsstring>()=default</argsstring>
+        <name>UnaryMoveOnlyFunctor</name>
+        <qualifiedname>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor::UnaryMoveOnlyFunctor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googlemock/test/gmock-more-actions_test.cc" line="89" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor_1a961054135d67cec93989ccb78fc71d62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor::UnaryMoveOnlyFunctor</definition>
+        <argsstring>(const UnaryMoveOnlyFunctor &amp;)=delete</argsstring>
+        <name>UnaryMoveOnlyFunctor</name>
+        <qualifiedname>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor::UnaryMoveOnlyFunctor</qualifiedname>
+        <param>
+          <type>const <ref refid="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor" kindref="compound">UnaryMoveOnlyFunctor</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googlemock/test/gmock-more-actions_test.cc" line="90" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor_1af53db325135d75a1ef8096e8337cc89e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor::UnaryMoveOnlyFunctor</definition>
+        <argsstring>(UnaryMoveOnlyFunctor &amp;&amp;)=default</argsstring>
+        <name>UnaryMoveOnlyFunctor</name>
+        <qualifiedname>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor::UnaryMoveOnlyFunctor</qualifiedname>
+        <param>
+          <type><ref refid="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor" kindref="compound">UnaryMoveOnlyFunctor</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googlemock/test/gmock-more-actions_test.cc" line="91" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::gmock_more_actions_test::UnaryFunctor</label>
+        <link refid="structtesting_1_1gmock__more__actions__test_1_1_unary_functor"/>
+      </node>
+      <node id="1">
+        <label>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor</label>
+        <link refid="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::gmock_more_actions_test::UnaryFunctor</label>
+        <link refid="structtesting_1_1gmock__more__actions__test_1_1_unary_functor"/>
+      </node>
+      <node id="1">
+        <label>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor</label>
+        <link refid="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="build/_deps/googletest-src/googlemock/test/gmock-more-actions_test.cc" line="88" column="1" bodyfile="build/_deps/googletest-src/googlemock/test/gmock-more-actions_test.cc" bodystart="88" bodyend="92"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1gmock__more__actions__test_1_1_unary_functor_1a3c33592b266e8ed2c7980df9868db53a" prot="public" virt="non-virtual"><scope>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor</scope><name>operator()</name></member>
+      <member refid="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor_1aea63fd6c0c0304f481d2a9dbc410493c" prot="public" virt="non-virtual"><scope>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor</scope><name>UnaryMoveOnlyFunctor</name></member>
+      <member refid="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor_1a961054135d67cec93989ccb78fc71d62" prot="public" virt="non-virtual"><scope>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor</scope><name>UnaryMoveOnlyFunctor</name></member>
+      <member refid="structtesting_1_1gmock__more__actions__test_1_1_unary_move_only_functor_1af53db325135d75a1ef8096e8337cc89e" prot="public" virt="non-virtual"><scope>testing::gmock_more_actions_test::UnaryMoveOnlyFunctor</scope><name>UnaryMoveOnlyFunctor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

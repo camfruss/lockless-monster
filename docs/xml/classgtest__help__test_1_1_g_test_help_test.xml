@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classgtest__help__test_1_1_g_test_help_test" kind="class" language="Python" prot="public">
+    <compoundname>gtest_help_test::GTestHelpTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">gtest_test_utils.TestCase</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgtest__help__test_1_1_g_test_help_test_1afab3430e67a53ac981d254a3b8c4f4c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gtest_help_test.GTestHelpTest.test_prints_help_with_full_flag</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_prints_help_with_full_flag</name>
+        <qualifiedname>gtest_help_test.GTestHelpTest.test_prints_help_with_full_flag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Verifies correct behavior when help flag is specified.
+
+The right message must be printed and the tests must
+skipped when the given flag is specified.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="130" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="130" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classgtest__help__test_1_1_g_test_help_test_1ad25e4f6ce444fdf9e7bad687d810dfce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gtest_help_test.GTestHelpTest.test_runs_tests_without_help_flag</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_runs_tests_without_help_flag</name>
+        <qualifiedname>gtest_help_test.GTestHelpTest.test_runs_tests_without_help_flag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Verifies correct behavior when no help flag is specified.
+
+Verifies that when no help flag is specified, the tests are run
+and the help message is not printed.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="157" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="157" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classgtest__help__test_1_1_g_test_help_test_1a68daf8fcefefce9c780430c1720c9ba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gtest_help_test.GTestHelpTest.test_runs_tests_with_gtest_internal_flag</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_runs_tests_with_gtest_internal_flag</name>
+        <qualifiedname>gtest_help_test.GTestHelpTest.test_runs_tests_with_gtest_internal_flag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Verifies correct behavior when internal testing flag is specified.
+
+Verifies that the tests are run and no help message is printed when
+a flag starting with Google Test prefix and &apos;internal_&apos; is supplied.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="168" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="168" bodyend="179"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Tests the --help flag and its equivalent forms.</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gtest_help_test.GTestHelpTest</label>
+        <link refid="classgtest__help__test_1_1_g_test_help_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gtest_test_utils.TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gtest_help_test.GTestHelpTest</label>
+        <link refid="classgtest__help__test_1_1_g_test_help_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gtest_test_utils.TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="build/_deps/googletest-src/googletest/test/gtest_help_test.py" line="127" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_help_test.py" bodystart="127" bodyend="179"/>
+    <listofallmembers>
+      <member refid="classgtest__help__test_1_1_g_test_help_test_1afab3430e67a53ac981d254a3b8c4f4c4" prot="public" virt="non-virtual"><scope>gtest_help_test::GTestHelpTest</scope><name>test_prints_help_with_full_flag</name></member>
+      <member refid="classgtest__help__test_1_1_g_test_help_test_1a68daf8fcefefce9c780430c1720c9ba4" prot="public" virt="non-virtual"><scope>gtest_help_test::GTestHelpTest</scope><name>test_runs_tests_with_gtest_internal_flag</name></member>
+      <member refid="classgtest__help__test_1_1_g_test_help_test_1ad25e4f6ce444fdf9e7bad687d810dfce" prot="public" virt="non-virtual"><scope>gtest_help_test::GTestHelpTest</scope><name>test_runs_tests_without_help_flag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="module__stack" kind="module">
+    <compoundname>stack</compoundname>
+    <innerfile refid="stack_8cppm">stack.cppm</innerfile>
+    <innerclass refid="classconcurrent_1_1stack" prot="public">concurrent::stack</innerclass>
+    <innerclass refid="structconcurrent_1_1stack_1_1_node" prot="private">concurrent::stack::Node</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="structconcurrent_1_1stack_1_1_node_1a22c368857720dda2e0666196c633cb3a" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Node &gt;</type>
+        <definition>std::unique_ptr&lt;Node&gt; concurrent::stack&lt; T &gt;::Node::m_nextNode</definition>
+        <argsstring></argsstring>
+        <name>m_nextNode</name>
+        <qualifiedname>concurrent::stack::Node::m_nextNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="24" column="17" bodyfile="src/todo/stack.cppm" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structconcurrent_1_1stack_1_1_node_1a913cdd61f505e65b1e897bd5972210a2" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T concurrent::stack&lt; T &gt;::Node::m_nodeValue</definition>
+        <argsstring></argsstring>
+        <name>m_nodeValue</name>
+        <qualifiedname>concurrent::stack::Node::m_nodeValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="25" column="3" bodyfile="src/todo/stack.cppm" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classconcurrent_1_1stack_1ac4fccf817425bf9dd286604004c22ea4" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Node &gt;</type>
+        <definition>std::unique_ptr&lt;Node&gt; concurrent::stack&lt; T &gt;::m_head</definition>
+        <argsstring></argsstring>
+        <name>m_head</name>
+        <qualifiedname>concurrent::stack::m_head</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="72" column="17" bodyfile="src/todo/stack.cppm" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classconcurrent_1_1stack_1afb887c38eedcd084dd6e2d9e9af2f7be" prot="private" static="no" mutable="no">
+        <type>atomic&lt; std::size_t &gt;</type>
+        <definition>atomic&lt;std::size_t&gt; concurrent::stack&lt; T &gt;::m_size</definition>
+        <argsstring></argsstring>
+        <name>m_size</name>
+        <qualifiedname>concurrent::stack::m_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="73" column="8" bodyfile="src/todo/stack.cppm" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="structconcurrent_1_1stack_1_1_node_1af1246fcef3ad6fa9c8eb09643b244412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>concurrent::stack&lt; T &gt;::Node::Node</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>Node</name>
+        <qualifiedname>concurrent::stack::Node::Node</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="20" column="1" bodyfile="src/todo/stack.cppm" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1a382e6abc137ff667d3c2a63965aa5817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>concurrent::stack&lt; T &gt;::stack</definition>
+        <argsstring>()=default</argsstring>
+        <name>stack</name>
+        <qualifiedname>concurrent::stack::stack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1a4355429a69cef0884b890abe4dd6d4d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>concurrent::stack&lt; T &gt;::~stack</definition>
+        <argsstring>()=default</argsstring>
+        <name>~stack</name>
+        <qualifiedname>concurrent::stack::~stack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1a8fd74e48c23e6434944ce94fcaa80b65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>concurrent::stack&lt; T &gt;::stack</definition>
+        <argsstring>(const stack &amp;rhs)=delete</argsstring>
+        <name>stack</name>
+        <qualifiedname>concurrent::stack::stack</qualifiedname>
+        <param>
+          <type>const stack &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1af51972ab9db563f617e51c9e3f567e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>stack &amp;</type>
+        <definition>stack &amp; concurrent::stack&lt; T &gt;::operator=</definition>
+        <argsstring>(const stack &amp;rhs)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>concurrent::stack::operator=</qualifiedname>
+        <param>
+          <type>const stack &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="33" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1a010dbf3d92445b674327c9a3fb94a8c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; T &gt;</type>
+        <definition>const T &amp; stack::top</definition>
+        <argsstring>() const</argsstring>
+        <name>top</name>
+        <qualifiedname>concurrent::stack::top</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The topmost element in the stack if non-empty, otherwise std::nullopt </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="38" column="15" bodyfile="src/todo/stack.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1a0e739a97b1881188689b036aad9bca50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool stack::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <qualifiedname>concurrent::stack::empty</qualifiedname>
+        <initializer>{
+	return m_head-&gt;m_nodeValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the stack is empty. False otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="43" column="6" bodyfile="src/todo/stack.cpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1a5b9e6e79f2097ac09b68c339fde65c97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t stack::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>concurrent::stack::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An approximation of the number of elements in the stack. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="48" column="13" bodyfile="src/todo/stack.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1a10600161a5ffd0dfa7ffc5fe13940061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void concurrent::stack&lt; T &gt;::push</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>push</name>
+        <qualifiedname>concurrent::stack::push</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="53" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1aecb65507bcb45f63976ae91c8095278d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void concurrent::stack&lt; T &gt;::push</definition>
+        <argsstring>(T &amp;&amp;value)</argsstring>
+        <name>push</name>
+        <qualifiedname>concurrent::stack::push</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="58" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1a1b0e8395c91024f759bcb758ace398be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void concurrent::stack&lt; T &gt;::pop</definition>
+        <argsstring>()</argsstring>
+        <name>pop</name>
+        <qualifiedname>concurrent::stack::pop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes the topmost element from the stack. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="63" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1stack_1a2b45329dc0d64a20bbbf29f3b8f3e2b1" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void concurrent::stack&lt; T &gt;::swap</definition>
+        <argsstring>(stack &amp;other) noexcept</argsstring>
+        <name>swap</name>
+        <qualifiedname>concurrent::stack::swap</qualifiedname>
+        <param>
+          <type>stack &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Swaps the contents of the stack with other. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/todo/stack.cppm" line="69" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/todo/stack.cppm" line="1" column="15"/>
+  </compounddef>
+</doxygen>

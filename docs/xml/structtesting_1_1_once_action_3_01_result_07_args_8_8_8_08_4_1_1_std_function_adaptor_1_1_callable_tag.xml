@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structtesting_1_1_once_action_3_01_result_07_args_8_8_8_08_4_1_1_std_function_adaptor_1_1_callable_tag" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>testing::OnceAction&lt; Result(Args...)&gt;::StdFunctionAdaptor::CallableTag</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h" line="513" column="5" bodyfile="build/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h" bodystart="513" bodyend="513"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

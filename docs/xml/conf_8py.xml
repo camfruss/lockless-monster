@@ -21,7 +21,7 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">sys.path.insert(0,<sp/>os.path.abspath(</highlight><highlight class="stringliteral">&apos;../../&apos;</highlight><highlight class="normal">))</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">project<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;lockless&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">project<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Concurrent&apos;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">copyright<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;2025,<sp/>Cameron<sp/>Russell&apos;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">author<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Cameron<sp/>Russell&apos;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
@@ -35,19 +35,17 @@
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;sphinx.ext.viewcode&apos;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal">]</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">breathe_projects<sp/>=<sp/>{</highlight><highlight class="stringliteral">&apos;lockless&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;../xml/&apos;</highlight><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">#<sp/>Match<sp/>this<sp/>to<sp/>your<sp/>Doxygen<sp/>XML<sp/>path</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal">breathe_default_project<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;lockless&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">breathe_projects<sp/>=<sp/>{</highlight><highlight class="stringliteral">&apos;Concurrent&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;../xml/&apos;</highlight><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">#<sp/>Match<sp/>this<sp/>to<sp/>your<sp/>Doxygen<sp/>XML<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">breathe_default_project<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Concurrent&apos;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal">templates_path<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;_templates&apos;</highlight><highlight class="normal">]</highlight></codeline>
-<codeline lineno="32"><highlight class="normal">exclude_patterns<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;_build&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;Thumbs.db&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;.DS_Store&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">exclude_patterns<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;_build&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;build&apos;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;Thumbs.db&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;.DS_Store&apos;</highlight><highlight class="normal">]</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">#<sp/>--<sp/>Options<sp/>for<sp/>HTML<sp/>output<sp/>-------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">#<sp/>https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">html_theme<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;furo&apos;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal">html_static_path<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;_static&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">#<sp/>--<sp/>Options<sp/>for<sp/>HTML<sp/>output<sp/>-------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">#<sp/>https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">html_theme<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;furo&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">html_static_path<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;_static&apos;</highlight><highlight class="normal">]</highlight></codeline>
     </programlisting>
     <location file="docs/sphinx/conf.py"/>
   </compounddef>

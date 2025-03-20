@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1_is_std_span" kind="struct" language="C++" prot="public">
+    <compoundname>testing::internal::IsStdSpan</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structtesting_1_1internal_1_1_is_std_span_1a5c0e17f8717ec254914dee5b8ce3c8ea" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool testing::internal::IsStdSpan&lt; T &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>testing::internal::IsStdSpan::value</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" line="144" column="25" bodyfile="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" line="143" column="1" bodyfile="build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h" bodystart="143" bodyend="145"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1_is_std_span_1a5c0e17f8717ec254914dee5b8ce3c8ea" prot="public" virt="non-virtual"><scope>testing::internal::IsStdSpan</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

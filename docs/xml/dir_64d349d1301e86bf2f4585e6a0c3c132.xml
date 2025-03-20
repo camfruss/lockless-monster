@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_64d349d1301e86bf2f4585e6a0c3c132" kind="dir">
+    <compoundname>build/CMakeFiles/concurrent.dir/src</compoundname>
+    <innerdir refid="dir_287b7114f4da5faee680afe135c230b1">build/CMakeFiles/concurrent.dir/src/modules</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/CMakeFiles/concurrent.dir/src/"/>
+  </compounddef>
+</doxygen>

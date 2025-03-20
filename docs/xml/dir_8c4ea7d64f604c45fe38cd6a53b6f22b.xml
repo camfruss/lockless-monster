@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_8c4ea7d64f604c45fe38cd6a53b6f22b" kind="dir">
+    <compoundname>examples/build</compoundname>
+    <innerdir refid="dir_01e578d865c25587061b0f85e85661a0">examples/build/CMakeFiles</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="examples/build/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_cc889cf8636f831fcbc1c5d270a8481b" kind="dir">
+    <compoundname>build/tests/CMakeFiles/tests.dir</compoundname>
+    <innerfile refid="rwlock__tests_8cpp_8o_8ddi_8d">rwlock_tests.cpp.o.ddi.d</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/tests/CMakeFiles/tests.dir/"/>
+  </compounddef>
+</doxygen>

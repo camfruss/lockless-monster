@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_287b7114f4da5faee680afe135c230b1" kind="dir">
+    <compoundname>build/CMakeFiles/concurrent.dir/src/modules</compoundname>
+    <innerfile refid="concurrent_8cppm_8o_8ddi_8d">concurrent.cppm.o.ddi.d</innerfile>
+    <innerfile refid="queue__interface_8cppm_8o_8ddi_8d">queue_interface.cppm.o.ddi.d</innerfile>
+    <innerfile refid="queue__lockbased_8cpp_8o_8ddi_8d">queue_lockbased.cpp.o.ddi.d</innerfile>
+    <innerfile refid="queue__lockbased_8cppm_8o_8ddi_8d">queue_lockbased.cppm.o.ddi.d</innerfile>
+    <innerfile refid="rwlock_8cpp_8o_8ddi_8d">rwlock.cpp.o.ddi.d</innerfile>
+    <innerfile refid="rwlock_8cppm_8o_8ddi_8d">rwlock.cppm.o.ddi.d</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/CMakeFiles/concurrent.dir/src/modules/"/>
+  </compounddef>
+</doxygen>

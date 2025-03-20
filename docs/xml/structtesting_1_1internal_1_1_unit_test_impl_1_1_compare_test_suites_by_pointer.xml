@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structtesting_1_1internal_1_1_unit_test_impl_1_1_compare_test_suites_by_pointer" kind="struct" language="C++" prot="private">
+    <compoundname>testing::internal::UnitTestImpl::CompareTestSuitesByPointer</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structtesting_1_1internal_1_1_unit_test_impl_1_1_compare_test_suites_by_pointer_1ac6be332478982ce2fe40c9616541a019" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool testing::internal::UnitTestImpl::CompareTestSuitesByPointer::operator()</definition>
+        <argsstring>(const TestSuite *lhs, const TestSuite *rhs) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>testing::internal::UnitTestImpl::CompareTestSuitesByPointer::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="classtesting_1_1_test_suite" kindref="compound">TestSuite</ref> *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtesting_1_1_test_suite" kindref="compound">TestSuite</ref> *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/src/gtest-internal-inl.h" line="830" column="10" bodyfile="build/_deps/googletest-src/googletest/src/gtest-internal-inl.h" bodystart="830" bodyend="832"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googletest/src/gtest-internal-inl.h" line="829" column="3" bodyfile="build/_deps/googletest-src/googletest/src/gtest-internal-inl.h" bodystart="829" bodyend="833"/>
+    <listofallmembers>
+      <member refid="structtesting_1_1internal_1_1_unit_test_impl_1_1_compare_test_suites_by_pointer_1ac6be332478982ce2fe40c9616541a019" prot="public" virt="non-virtual"><scope>testing::internal::UnitTestImpl::CompareTestSuitesByPointer</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

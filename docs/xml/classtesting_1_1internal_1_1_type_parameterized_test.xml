@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classtesting_1_1internal_1_1_type_parameterized_test" kind="class" language="C++" prot="public">
+    <compoundname>testing::internal::TypeParameterizedTest</compoundname>
+    <templateparamlist>
+      <param>
+        <type>GTEST_TEMPLATE_</type>
+        <declname>Fixture</declname>
+        <defname>Fixture</defname>
+      </param>
+      <param>
+        <type>class TestSel</type>
+      </param>
+      <param>
+        <type>typename <ref refid="structtesting_1_1internal_1_1_types" kindref="compound">Types</ref></type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtesting_1_1internal_1_1_type_parameterized_test_1a34c205e6aac9ee62ffa7a229d8ef9a18" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool testing::internal::TypeParameterizedTest&lt; Fixture, TestSel, Types &gt;::Register</definition>
+        <argsstring>(const char *prefix, CodeLocation code_location, const char *case_name, const char *test_names, int index, const std::vector&lt; std::string &gt; &amp;type_names=GenerateNames&lt; DefaultNameGenerator, Types &gt;())</argsstring>
+        <name>Register</name>
+        <qualifiedname>testing::internal::TypeParameterizedTest::Register</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type><ref refid="structtesting_1_1internal_1_1_code_location" kindref="compound">CodeLocation</ref></type>
+          <declname>code_location</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>case_name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>test_names</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>type_names</declname>
+          <defval>GenerateNames&lt; <ref refid="structtesting_1_1internal_1_1_default_name_generator" kindref="compound">DefaultNameGenerator</ref>, <ref refid="structtesting_1_1internal_1_1_types" kindref="compound">Types</ref> &gt;()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h" line="702" column="15" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h" bodystart="702" bodyend="729"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h" line="696" column="1" bodyfile="build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h" bodystart="696" bodyend="730"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1internal_1_1_type_parameterized_test_1a34c205e6aac9ee62ffa7a229d8ef9a18" prot="public" virt="non-virtual"><scope>testing::internal::TypeParameterizedTest</scope><name>Register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

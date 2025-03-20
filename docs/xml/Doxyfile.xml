@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxyfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="doxyfile.xsd" version="1.13.2" xml:lang="en-US">
   <option  id='DOXYFILE_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
-  <option  id='PROJECT_NAME' default='no' type='string'><value><![CDATA[lockless]]></value></option>
+  <option  id='PROJECT_NAME' default='no' type='string'><value><![CDATA[Concurrent]]></value></option>
   <option  id='PROJECT_NUMBER' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='PROJECT_BRIEF' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='PROJECT_LOGO' default='yes' type='string'><value><![CDATA[]]></value></option>
@@ -115,7 +115,7 @@
   </option>
   <option  id='EXTERNAL_TOOL_PATH' default='yes' type='stringlist'>
   </option>
-  <option  id='QUIET' default='yes' type='bool'><value>NO</value></option>
+  <option  id='QUIET' default='no' type='bool'><value>YES</value></option>
   <option  id='WARNINGS' default='yes' type='bool'><value>YES</value></option>
   <option  id='WARN_IF_UNDOCUMENTED' default='yes' type='bool'><value>YES</value></option>
   <option  id='WARN_IF_DOC_ERROR' default='yes' type='bool'><value>YES</value></option>
@@ -186,7 +186,8 @@
     <value><![CDATA[*.ice]]></value>
   </option>
   <option  id='RECURSIVE' default='no' type='bool'><value>YES</value></option>
-  <option  id='EXCLUDE' default='yes' type='stringlist'>
+  <option  id='EXCLUDE' default='no' type='stringlist'>
+    <value><![CDATA[build/_deps/googletest-src]]></value>
   </option>
   <option  id='EXCLUDE_SYMLINKS' default='yes' type='bool'><value>NO</value></option>
   <option  id='EXCLUDE_PATTERNS' default='yes' type='stringlist'>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="md_build_2__deps_2googletest-src_2docs_2quickstart-bazel" kind="page">
+    <compoundname>md_build_2__deps_2googletest-src_2docs_2quickstart-bazel</compoundname>
+    <title>Quickstart: Building with Bazel</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="md_build_2__deps_2googletest-src_2docs_2quickstart-bazel_1autotoc_md235"/></para>
+<para>This tutorial aims to get you up and running with GoogleTest using the Bazel build system. If you&apos;re using GoogleTest for the first time or need a refresher, we recommend this tutorial as a starting point.</para>
+<sect1 id="md_build_2__deps_2googletest-src_2docs_2quickstart-bazel_1autotoc_md236">
+<title>Prerequisites</title><para>To complete this tutorial, you&apos;ll need:</para>
+<para><itemizedlist>
+<listitem><para>A compatible operating system (e.g. Linux, macOS, Windows).</para>
+</listitem><listitem><para>A compatible C++ compiler that supports at least C++14.</para>
+</listitem><listitem><para><ulink url="https://bazel.build/">Bazel</ulink> 7.0 or higher, the preferred build system used by the GoogleTest team.</para>
+</listitem></itemizedlist>
+</para>
+<para>See <ref refid="md_build_2__deps_2googletest-src_2docs_2platforms" kindref="compound">Supported Platforms</ref> for more information about platforms compatible with GoogleTest.</para>
+<para>If you don&apos;t already have Bazel installed, see the <ulink url="https://bazel.build/install">Bazel installation guide</ulink>.</para>
+<para>{: .callout .note} Note: The terminal commands in this tutorial show a Unix shell prompt, but the commands work on the Windows command line as well.</para>
+</sect1>
+<sect1 id="md_build_2__deps_2googletest-src_2docs_2quickstart-bazel_1autotoc_md237">
+<title>Set up a Bazel workspace</title><para>A <ulink url="https://docs.bazel.build/versions/main/build-ref.html#workspace">Bazel workspace</ulink> is a directory on your filesystem that you use to manage source files for the software you want to build. Each workspace directory has a text file named <computeroutput>MODULE.bazel</computeroutput> which may be empty, or may contain references to external dependencies required to build the outputs.</para>
+<para>First, create a directory for your workspace:</para>
+<para><programlisting><codeline><highlight class="normal">$<sp/>mkdir<sp/>my_workspace<sp/>&amp;&amp;<sp/>cd<sp/>my_workspace</highlight></codeline>
+</programlisting></para>
+<para>Next, you’ll create the <computeroutput>MODULE.bazel</computeroutput> file to specify dependencies. As of Bazel 7.0, the recommended way to consume GoogleTest is through the <ulink url="https://registry.bazel.build/modules/googletest">Bazel Central Registry</ulink>. To do this, create a <computeroutput>MODULE.bazel</computeroutput> file in the root directory of your Bazel workspace with the following content:</para>
+<para><programlisting><codeline><highlight class="normal">#<sp/>MODULE.bazel</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Choose<sp/>the<sp/>most<sp/>recent<sp/>version<sp/>available<sp/>at</highlight></codeline>
+<codeline><highlight class="normal">#<sp/>https://registry.bazel.build/modules/googletest</highlight></codeline>
+<codeline><highlight class="normal">bazel_dep(name<sp/>=<sp/>&quot;googletest&quot;,<sp/>version<sp/>=<sp/>&quot;1.15.2&quot;)</highlight></codeline>
+</programlisting></para>
+<para>Now you&apos;re ready to build C++ code that uses GoogleTest.</para>
+</sect1>
+<sect1 id="md_build_2__deps_2googletest-src_2docs_2quickstart-bazel_1autotoc_md238">
+<title>Create and run a binary</title><para>With your Bazel workspace set up, you can now use GoogleTest code within your own project.</para>
+<para>As an example, create a file named <computeroutput>hello_test.cc</computeroutput> in your <computeroutput>my_workspace</computeroutput> directory with the following contents:</para>
+<para><programlisting filename=".cpp"><codeline><highlight class="preprocessor">#include<sp/>&lt;gtest/gtest.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//<sp/>Demonstrate<sp/>some<sp/>basic<sp/>assertions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(HelloTest,<sp/>BasicAssertions)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Expect<sp/>two<sp/>strings<sp/>not<sp/>to<sp/>be<sp/>equal.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>EXPECT_STRNE(</highlight><highlight class="stringliteral">&quot;hello&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;world&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Expect<sp/>equality.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>EXPECT_EQ(7<sp/>*<sp/>6,<sp/>42);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para>
+<para>GoogleTest provides <ulink url="primer.md#assertions">assertions</ulink> that you use to test the behavior of your code. The above sample includes the main GoogleTest header file and demonstrates some basic assertions.</para>
+<para>To build the code, create a file named <computeroutput>BUILD</computeroutput> in the same directory with the following contents:</para>
+<para><programlisting><codeline><highlight class="normal">cc_test(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>&quot;hello_test&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>size<sp/>=<sp/>&quot;small&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>srcs<sp/>=<sp/>[&quot;hello_test.cc&quot;],</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>deps<sp/>=<sp/>[</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;@googletest//:gtest&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;@googletest//:gtest_main&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline><highlight class="normal">)</highlight></codeline>
+</programlisting></para>
+<para>This <computeroutput>cc_test</computeroutput> rule declares the C++ test binary you want to build, and links to the GoogleTest library (<computeroutput>@googletest//:gtest&quot;&lt;/tt&gt;) and the GoogleTest &lt;tt&gt;main()&lt;/tt&gt;
+function (&lt;tt&gt;\@googletest//:gtest_main&lt;/tt&gt;). For more information about Bazel &lt;tt&gt;BUILD&lt;/tt&gt;
+files, see the
+&lt;a href=&quot;<ulink url="https://docs.bazel.build/versions/main/tutorial/cpp.html">https://docs.bazel.build/versions/main/tutorial/cpp.html</ulink>&quot; &gt;Bazel C++ Tutorial&lt;/a&gt;.
+
+{: .callout .note}
+NOTE: In the example below, we assume Clang or GCC and set &lt;tt&gt;--cxxopt=-std=c++14&lt;/tt&gt;
+to ensure that GoogleTest is compiled as C++14 instead of the compiler&apos;s default
+setting (which could be C++11). For MSVC, the equivalent would be
+&lt;tt&gt;--cxxopt=/std:c++14&lt;/tt&gt;. See @ref &quot;/Users/cameron/git/concurrent/build/_deps/googletest-src/docs/platforms.md&quot; &quot;Supported Platforms&quot; for more details
+on supported language versions.
+
+Now you can build and run your test:
+
+&lt;pre&gt;
+&lt;strong&gt;$ bazel test --cxxopt=-std=c++14 --test_output=all //:hello_test&lt;/strong&gt;
+INFO: Analyzed target //:hello_test (26 packages loaded, 362 targets configured).
+INFO: Found 1 test target...
+INFO: From Testing //:hello_test:
+==================== Test output for //:hello_test:
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions
+[       OK ] HelloTest.BasicAssertions (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+================================================================================
+Target //:hello_test up-to-date:
+  bazel-bin/hello_test
+INFO: Elapsed time: 4.190s, Critical Path: 3.05s
+INFO: 27 processes: 8 internal, 19 linux-sandbox.
+INFO: Build completed successfully, 27 total actions
+//:hello_test                                                     PASSED in 0.1s
+
+INFO: Build completed successfully, 27 total actions
+&lt;/pre&gt;
+
+Congratulations! You&apos;ve successfully built and run a test binary using
+GoogleTest.
+
+@section autotoc_md239 Next steps
+
+*   @ref &quot;/Users/cameron/git/concurrent/build/_deps/googletest-src/docs/primer.md&quot; &quot;Check out the Primer&quot; to start learning how to write simple
+    tests.
+*   @ref &quot;/Users/cameron/git/concurrent/build/_deps/googletest-src/docs/samples.md&quot; &quot;See the code samples" for more examples showing how to use a variety of GoogleTest features. </computeroutput></para>
+</sect1>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/docs/quickstart-bazel.md"/>
+  </compounddef>
+</doxygen>

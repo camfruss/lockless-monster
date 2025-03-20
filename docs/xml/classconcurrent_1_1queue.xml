@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classconcurrent_1_1queue" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>concurrent::queue</compoundname>
+    <derivedcompoundref refid="classconcurrent_1_1lockbased_1_1queue" prot="public" virt="non-virtual">concurrent::lockbased::queue&lt; T &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classconcurrent_1_1queue_1a1a78ad391843cfd5a4bee70b53df7a30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>concurrent::queue&lt; T &gt;::queue</definition>
+        <argsstring>()=default</argsstring>
+        <name>queue</name>
+        <qualifiedname>concurrent::queue::queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1ae7649b09bf8c4a93249991bf2e283a82" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual concurrent::queue&lt; T &gt;::~queue</definition>
+        <argsstring>()=default</argsstring>
+        <name>~queue</name>
+        <qualifiedname>concurrent::queue::~queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="18" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1a56efda117d8a7a4f523fbf9117f8ce7a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>T &amp;</type>
+        <definition>virtual T &amp; concurrent::queue&lt; T &gt;::front</definition>
+        <argsstring>() const =0</argsstring>
+        <name>front</name>
+        <qualifiedname>concurrent::queue::front</qualifiedname>
+        <reimplementedby refid="classconcurrent_1_1lockbased_1_1queue_1ae70befb0b824def94973baf51de973aa">front</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="20" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1a4404b1207dee3f8b0003cd1c725585cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>T &amp;</type>
+        <definition>virtual T &amp; concurrent::queue&lt; T &gt;::back</definition>
+        <argsstring>() const =0</argsstring>
+        <name>back</name>
+        <qualifiedname>concurrent::queue::back</qualifiedname>
+        <reimplementedby refid="classconcurrent_1_1lockbased_1_1queue_1ae81e287a44c578d80d1285b06f2481ad">back</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="21" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1a7f6880a9bbe31b2799c825b2e3380a3a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool concurrent::queue&lt; T &gt;::empty</definition>
+        <argsstring>() const =0</argsstring>
+        <name>empty</name>
+        <qualifiedname>concurrent::queue::empty</qualifiedname>
+        <reimplementedby refid="classconcurrent_1_1lockbased_1_1queue_1af73bd1cd739018b10f4905aac7d5e1b5">empty</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="23" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1af91be40bb48a79dea5446f98644bb3f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::size_t</type>
+        <definition>virtual std::size_t concurrent::queue&lt; T &gt;::size</definition>
+        <argsstring>() const =0</argsstring>
+        <name>size</name>
+        <qualifiedname>concurrent::queue::size</qualifiedname>
+        <reimplementedby refid="classconcurrent_1_1lockbased_1_1queue_1ac9a5c0f84ab48f8552449a2b4e3fba09">size</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="24" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1a252522233ac34114942a7907adfa1d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void concurrent::queue&lt; T &gt;::push</definition>
+        <argsstring>(const T &amp;value)=0</argsstring>
+        <name>push</name>
+        <qualifiedname>concurrent::queue::push</qualifiedname>
+        <reimplementedby refid="classconcurrent_1_1lockbased_1_1queue_1acc48a1e0480f04c4de8e10d913046527">push</reimplementedby>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="26" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1a83205e3c05b3065d87ba97c39e375b7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void concurrent::queue&lt; T &gt;::push</definition>
+        <argsstring>(T &amp;&amp;value)=0</argsstring>
+        <name>push</name>
+        <qualifiedname>concurrent::queue::push</qualifiedname>
+        <reimplementedby refid="classconcurrent_1_1lockbased_1_1queue_1a0a803fee7af3bb20a45ced39965804e3">push</reimplementedby>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="27" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1ab62d4c18acfd34f6e24fdecf7832af95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void concurrent::queue&lt; T &gt;::push_range</definition>
+        <argsstring>(std::initializer_list&lt; T &gt; range)</argsstring>
+        <name>push_range</name>
+        <qualifiedname>concurrent::queue::push_range</qualifiedname>
+        <param>
+          <type>std::initializer_list&lt; T &gt;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="29" column="6" bodyfile="src/modules/queue_interface.cppm" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1a4a7e942e05957500dee1c0b35a270603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void concurrent::queue&lt; T &gt;::emplace</definition>
+        <argsstring>(Args &amp;&amp;...args)</argsstring>
+        <name>emplace</name>
+        <qualifiedname>concurrent::queue::emplace</qualifiedname>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="34" column="6" bodyfile="src/modules/queue_interface.cppm" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1a86bc70fb1c830e8380aab511472bf3e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Range</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void concurrent::queue&lt; T &gt;::emplace_range</definition>
+        <argsstring>(Range &amp;&amp;range)</argsstring>
+        <name>emplace_range</name>
+        <qualifiedname>concurrent::queue::emplace_range</qualifiedname>
+        <param>
+          <type>Range &amp;&amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="39" column="6" bodyfile="src/modules/queue_interface.cppm" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1acf7ae67fd2eb80cff0ac7c5b9fd11712" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void concurrent::queue&lt; T &gt;::pop</definition>
+        <argsstring>()=0</argsstring>
+        <name>pop</name>
+        <qualifiedname>concurrent::queue::pop</qualifiedname>
+        <reimplementedby refid="classconcurrent_1_1lockbased_1_1queue_1ab5ea1f7e8f52f676bc7cabc71da029c1">pop</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="43" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classconcurrent_1_1queue_1a270dbb431549e5a41aad7d40fe5f028a" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void concurrent::queue&lt; T &gt;::swap</definition>
+        <argsstring>(queue &amp;other) noexcept=0</argsstring>
+        <name>swap</name>
+        <qualifiedname>concurrent::queue::swap</qualifiedname>
+        <param>
+          <type><ref refid="classconcurrent_1_1queue" kindref="compound">queue</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/modules/queue_interface.cppm" line="45" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An unbounded queue abstract class </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>concurrent::lockbased::queue&lt; T &gt;</label>
+        <link refid="classconcurrent_1_1lockbased_1_1queue"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>concurrent::queue&lt; T &gt;</label>
+        <link refid="classconcurrent_1_1queue"/>
+      </node>
+    </inheritancegraph>
+    <location file="src/modules/queue_interface.cppm" line="14" column="1" bodyfile="src/modules/queue_interface.cppm" bodystart="15" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classconcurrent_1_1queue_1a4404b1207dee3f8b0003cd1c725585cb" prot="public" virt="pure-virtual"><scope>concurrent::queue</scope><name>back</name></member>
+      <member refid="classconcurrent_1_1queue_1a4a7e942e05957500dee1c0b35a270603" prot="public" virt="non-virtual"><scope>concurrent::queue</scope><name>emplace</name></member>
+      <member refid="classconcurrent_1_1queue_1a86bc70fb1c830e8380aab511472bf3e0" prot="public" virt="non-virtual"><scope>concurrent::queue</scope><name>emplace_range</name></member>
+      <member refid="classconcurrent_1_1queue_1a7f6880a9bbe31b2799c825b2e3380a3a" prot="public" virt="pure-virtual"><scope>concurrent::queue</scope><name>empty</name></member>
+      <member refid="classconcurrent_1_1queue_1a56efda117d8a7a4f523fbf9117f8ce7a" prot="public" virt="pure-virtual"><scope>concurrent::queue</scope><name>front</name></member>
+      <member refid="classconcurrent_1_1queue_1acf7ae67fd2eb80cff0ac7c5b9fd11712" prot="public" virt="pure-virtual"><scope>concurrent::queue</scope><name>pop</name></member>
+      <member refid="classconcurrent_1_1queue_1a252522233ac34114942a7907adfa1d6b" prot="public" virt="pure-virtual"><scope>concurrent::queue</scope><name>push</name></member>
+      <member refid="classconcurrent_1_1queue_1a83205e3c05b3065d87ba97c39e375b7a" prot="public" virt="pure-virtual"><scope>concurrent::queue</scope><name>push</name></member>
+      <member refid="classconcurrent_1_1queue_1ab62d4c18acfd34f6e24fdecf7832af95" prot="public" virt="non-virtual"><scope>concurrent::queue</scope><name>push_range</name></member>
+      <member refid="classconcurrent_1_1queue_1a1a78ad391843cfd5a4bee70b53df7a30" prot="public" virt="non-virtual"><scope>concurrent::queue</scope><name>queue</name></member>
+      <member refid="classconcurrent_1_1queue_1af91be40bb48a79dea5446f98644bb3f9" prot="public" virt="pure-virtual"><scope>concurrent::queue</scope><name>size</name></member>
+      <member refid="classconcurrent_1_1queue_1a270dbb431549e5a41aad7d40fe5f028a" prot="public" virt="pure-virtual"><scope>concurrent::queue</scope><name>swap</name></member>
+      <member refid="classconcurrent_1_1queue_1ae7649b09bf8c4a93249991bf2e283a82" prot="public" virt="virtual"><scope>concurrent::queue</scope><name>~queue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

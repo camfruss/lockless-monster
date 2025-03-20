@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_c5f655d618205cb28123d4e6a51ea001" kind="dir">
+    <compoundname>build/_deps/googletest-src/googlemock</compoundname>
+    <innerdir refid="dir_e8a37d4378b60a5652b35a722ac61283">build/_deps/googletest-src/googlemock/docs</innerdir>
+    <innerdir refid="dir_deb2d1c1f5c54b35245335ac08173a14">build/_deps/googletest-src/googlemock/include</innerdir>
+    <innerdir refid="dir_53c473b8e0609a1ef5367b99a55ea6e1">build/_deps/googletest-src/googlemock/src</innerdir>
+    <innerdir refid="dir_107e441a85fe388ad19bf29a1d959b4b">build/_deps/googletest-src/googlemock/test</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="/Users/cameron/git/concurrent/build/_deps/googletest-src/googlemock/README.md_1autotoc_md384_1s1"><sect2 id="/Users/cameron/git/concurrent/build/_deps/googletest-src/googlemock/README.md_1autotoc_md384">
+<title>Overview</title><para>Google&apos;s framework for writing and using C++ mock classes. It can help you derive better designs of your system and write better tests.</para>
+<para>It is inspired by:</para>
+<para><itemizedlist>
+<listitem><para><ulink url="http://www.jmock.org/">jMock</ulink></para>
+</listitem><listitem><para><ulink url="https://easymock.org/">EasyMock</ulink></para>
+</listitem><listitem><para><ulink url="https://code.google.com/p/hamcrest/">Hamcrest</ulink></para>
+</listitem></itemizedlist>
+</para>
+<para>It is designed with C++&apos;s specifics in mind.</para>
+<para>gMock:</para>
+<para><itemizedlist>
+<listitem><para>Provides a declarative syntax for defining mocks.</para>
+</listitem><listitem><para>Can define partial (hybrid) mocks, which are a cross of real and mock objects.</para>
+</listitem><listitem><para>Handles functions of arbitrary types and overloaded functions.</para>
+</listitem><listitem><para>Comes with a rich set of matchers for validating function arguments.</para>
+</listitem><listitem><para>Uses an intuitive syntax for controlling the behavior of a mock.</para>
+</listitem><listitem><para>Does automatic verification of expectations (no record-and-replay needed).</para>
+</listitem><listitem><para>Allows arbitrary (partial) ordering constraints on function calls to be expressed.</para>
+</listitem><listitem><para>Lets a user extend it by defining new matchers and actions.</para>
+</listitem><listitem><para>Does not use exceptions.</para>
+</listitem><listitem><para>Is easy to learn and use.</para>
+</listitem></itemizedlist>
+</para>
+<para>Details and examples can be found here:</para>
+<para><itemizedlist>
+<listitem><para><ulink url="https://google.github.io/googletest/gmock_for_dummies.html">gMock for Dummies</ulink></para>
+</listitem><listitem><para><ulink url="https://google.github.io/googletest/gmock_faq.html">Legacy gMock FAQ</ulink></para>
+</listitem><listitem><para><ulink url="https://google.github.io/googletest/gmock_cook_book.html">gMock Cookbook</ulink></para>
+</listitem><listitem><para><ulink url="https://google.github.io/googletest/gmock_cheat_sheet.html">gMock Cheat Sheet</ulink></para>
+</listitem></itemizedlist>
+</para>
+<para>GoogleMock is a part of <ulink url="https://github.com/google/googletest/">GoogleTest C++ testing framework</ulink> and a subject to the same requirements. </para>
+</sect2></sect1>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googlemock/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_const_only_container_with_class_iterator" kind="struct" language="C++" prot="public">
+    <compoundname>ConstOnlyContainerWithClassIterator</compoundname>
+    <innerclass refid="struct_const_only_container_with_class_iterator_1_1const__iterator" prot="public">ConstOnlyContainerWithClassIterator::const_iterator</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_const_only_container_with_class_iterator_1a30be5262acd17c34d19b19d560ebd541" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_const_only_container_with_class_iterator_1_1const__iterator" kindref="compound">const_iterator</ref></type>
+        <definition>const_iterator ConstOnlyContainerWithClassIterator::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <qualifiedname>ConstOnlyContainerWithClassIterator::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_unittest.cc" line="7362" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_const_only_container_with_class_iterator_1a3d6e17f17eecd7b1ef02afc9a75a0bde" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_const_only_container_with_class_iterator_1_1const__iterator" kindref="compound">const_iterator</ref></type>
+        <definition>const_iterator ConstOnlyContainerWithClassIterator::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <qualifiedname>ConstOnlyContainerWithClassIterator::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="build/_deps/googletest-src/googletest/test/gtest_unittest.cc" line="7363" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="build/_deps/googletest-src/googletest/test/gtest_unittest.cc" line="7357" column="1" bodyfile="build/_deps/googletest-src/googletest/test/gtest_unittest.cc" bodystart="7357" bodyend="7364"/>
+    <listofallmembers>
+      <member refid="struct_const_only_container_with_class_iterator_1a30be5262acd17c34d19b19d560ebd541" prot="public" virt="non-virtual"><scope>ConstOnlyContainerWithClassIterator</scope><name>begin</name></member>
+      <member refid="struct_const_only_container_with_class_iterator_1a3d6e17f17eecd7b1ef02afc9a75a0bde" prot="public" virt="non-virtual"><scope>ConstOnlyContainerWithClassIterator</scope><name>end</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_n_o_t_e_s_8md" kind="file" language="Markdown">
+    <compoundname>NOTES.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Notes<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Dependencies<sp/>I<sp/>have<sp/>installed:<sp/>`ninja<sp/>llvm<sp/>googletest`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">When<sp/>using<sp/>the<sp/>default<sp/>Doxyfile,<sp/>the<sp/>following<sp/>changes<sp/>were<sp/>made:</highlight></codeline>
+<codeline><highlight class="normal">```txt</highlight></codeline>
+<codeline><highlight class="normal">GENERATE_XML<sp/>=<sp/>YES</highlight></codeline>
+<codeline><highlight class="normal">RECURSIVE<sp/>=<sp/>YES</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>build;<sp/>ctest</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">To<sp/>keep<sp/>a<sp/>clean<sp/>root<sp/>directory,<sp/>keep<sp/>all<sp/>CMake<sp/>files<sp/>in<sp/>the<sp/>`build`<sp/>directory:</highlight></codeline>
+<codeline><highlight class="normal">```Bash</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>./build</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>-G<sp/>Ninja<sp/>..</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>To<sp/>generate<sp/>documentation</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>--build<sp/>./build<sp/>--target<sp/>generate_docs</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="NOTES.md"/>
+  </compounddef>
+</doxygen>

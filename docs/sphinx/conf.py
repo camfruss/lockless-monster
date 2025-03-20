@@ -29,7 +29,7 @@ breathe_projects = {'Concurrent': '../xml/'}  # Match this to your Doxygen XML p
 breathe_default_project = 'Concurrent'
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'build' 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

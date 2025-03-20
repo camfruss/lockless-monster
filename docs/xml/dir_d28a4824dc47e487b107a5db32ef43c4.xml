@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_d28a4824dc47e487b107a5db32ef43c4" kind="dir">
+    <compoundname>examples</compoundname>
+    <innerdir refid="dir_8c4ea7d64f604c45fe38cd6a53b6f22b">examples/build</innerdir>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Consider <computeroutput>examples/</computeroutput> to be the root directory of a separate project with its own <computeroutput>CMakeLists.txt</computeroutput> file. </para>
+    </detaileddescription>
+    <location file="examples/"/>
+  </compounddef>
+</doxygen>

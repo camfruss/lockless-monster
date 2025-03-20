@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="md__n_o_t_e_s" kind="page">
+    <compoundname>md__n_o_t_e_s</compoundname>
+    <title>Notes</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="md__n_o_t_e_s_1autotoc_md1"/></para>
+<para>Dependencies I have installed: <computeroutput>ninja llvm googletest</computeroutput></para>
+<para>When using the default Doxyfile, the following changes were made: <programlisting filename=".txt"><codeline><highlight class="normal">GENERATE_XML<sp/>=<sp/>YES</highlight></codeline>
+<codeline><highlight class="normal">RECURSIVE<sp/>=<sp/>YES</highlight></codeline>
+</programlisting></para>
+<para><programlisting><codeline><highlight class="normal">cd<sp/>build;<sp/>ctest</highlight></codeline>
+</programlisting></para>
+<para>To keep a clean root directory, keep all CMake files in the <computeroutput>build</computeroutput> directory: <programlisting filename=".Bash"><codeline><highlight class="normal">cd<sp/>./build</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>-G<sp/>Ninja<sp/>..</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>To<sp/>generate<sp/>documentation</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>--build<sp/>./build<sp/>--target<sp/>generate_docs</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <location file="NOTES.md"/>
+  </compounddef>
+</doxygen>
