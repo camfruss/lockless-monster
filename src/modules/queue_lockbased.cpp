@@ -1,65 +1,47 @@
-module lockbased.queue;
+module concurrent.lockbased.queue;
 
-using concurrent::lockbased::queue = queue;
 
-template <typename T>
-T& queue::front() const
-{
-}
+namespace concurrent::lockbased {
 
-template <typename T>
-const T& queue::front() const
-{
-}
+	template <typename T>
+	T& queue<T>::front() const
+	{
+	}
+	
+	template <typename T>
+	T& queue<T>::back() const
+	{
+	}
+	
+	template <typename T>
+	bool queue<T>::empty() const
+	{
+	}
+	
+	template <typename T>
+	std::size_t queue<T>::size() const
+	{
+	}
+	
+	template <typename T>
+	void queue<T>::push(const T& value)
+	{
+	}
+	
+	template <typename T>
+	void queue<T>::push(T&& value)
+	{
+	}
+	
+	template <typename T>
+	void queue<T>::pop()
+	{
+	}
+	
+	template <typename T>
+	void queue<T>::swap(queue& other) noexcept
+	{
+	}
 
-template <typename T>
-T& queue::back() const
-{
-}
-
-template <typename T>
-const T& queue::back() const
-{
-}
-
-bool queue::empty() const
-{
-}
-
-std::size_t queue::size() const
-{
-}
-
-template <typename T>
-void queue::push(const T& value)
-{
-}
-
-template <typename T>
-void queue::push(T&& value)
-{
-}
-
-template <typename T>
-void queue::push_range(std::initializer_list<T> range)
-{
-}
-
-template<typename ...Args>
-void queue::emplace(Args&& ...args)
-{
-}
-
-template<typename Range>
-void queue::emplace_range(Range&& range)
-{
-}
-
-void queue::pop()
-{
-}
-
-void queue::swap(queue& other) noexcept
-{
 }
 

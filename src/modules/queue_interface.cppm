@@ -1,5 +1,9 @@
 export module queue.interface;
 
+import <cstddef>;
+import <initializer_list>;
+
+
 export namespace concurrent 
 {
 
@@ -14,10 +18,7 @@ export namespace concurrent
 			virtual ~queue() = default;
 
 			virtual T& front() const = 0; 
-			virtual const T& front() const = 0;
-
 			virtual T& back() const = 0;
-			virtual const T& back() const = 0;
 			
 			virtual bool empty() const = 0;
 			virtual std::size_t size() const = 0;
@@ -25,13 +26,19 @@ export namespace concurrent
 			virtual void push(const T& value) = 0;
 			virtual void push(T&& value) = 0;
 
-			virtual void push_range(std::initializer_list<T> range) = 0;
+			void push_range(std::initializer_list<T> range)
+			{
+			}
 
 			template<typename ...Args>
-			virtual void emplace(Args&& ...args) = 0;
+			void emplace(Args&& ...args) 
+			{
+			}
 
 			template<typename Range>
-			virtual void emplace_range(Range&& range) = 0;
+			void emplace_range(Range&& range)
+			{
+			}
 
 			virtual void pop() = 0;
 
